@@ -1,0 +1,10 @@
+project:
+  type: website
+
+website:
+  title: "Michael Willox"
+  navbar:
+    right:
+      - text: "CV"
+        href: CV/CV.qmd
+      # Add more pages as needed

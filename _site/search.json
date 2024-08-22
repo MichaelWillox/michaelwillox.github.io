@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Michael Willox’s Website",
+    "section": "",
+    "text": "Welcome\nThis is the homepage for Michael Willox’s website. Here you can find information about my research, projects, and more.\n\nView My CV"
+  },
+  {
     "objectID": "CV/CV.html",
     "href": "CV/CV.html",
     "title": "Michael Willox",

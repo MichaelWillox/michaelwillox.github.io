@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "posts/HateRs.html",
+    "href": "posts/HateRs.html",
+    "title": "Transforming File Formats for HateRs",
+    "section": "",
+    "text": "Welcome to the world of R! If you’re reading this, chances are you’re a bit hesitant about diving into R. Maybe you’ve heard it’s complicated or you’ve already had a frustrating experience. Well, you’re in the right place—let’s make this easy and fun!\nFirst things first, let’s get familiar with RStudio, the tool we’ll use to work with R. Below, you’ll see a screenshot of RStudio. It might look a little overwhelming at first, but don’t worry! The important part for us is the script window, which is where you’ll write your R code. To open a new script, just click on File &gt; New File &gt; R Script. You can write your code there and save it by clicking File &gt; Save or pressing Ctrl + S. Easy peasy!\n\n\n\nRStudio Screenshot\n\n\nNow, let’s get down to business—transforming file formats! 🕺"
+  },
+  {
+    "objectID": "posts/HateRs.html#introduction",
+    "href": "posts/HateRs.html#introduction",
+    "title": "Transforming File Formats for HateRs",
+    "section": "",
+    "text": "Welcome to the world of R! If you’re reading this, chances are you’re a bit hesitant about diving into R. Maybe you’ve heard it’s complicated or you’ve already had a frustrating experience. Well, you’re in the right place—let’s make this easy and fun!\nFirst things first, let’s get familiar with RStudio, the tool we’ll use to work with R. Below, you’ll see a screenshot of RStudio. It might look a little overwhelming at first, but don’t worry! The important part for us is the script window, which is where you’ll write your R code. To open a new script, just click on File &gt; New File &gt; R Script. You can write your code there and save it by clicking File &gt; Save or pressing Ctrl + S. Easy peasy!\n\n\n\nRStudio Screenshot\n\n\nNow, let’s get down to business—transforming file formats! 🕺"
+  },
+  {
+    "objectID": "posts/HateRs.html#why-transform-file-formats",
+    "href": "posts/HateRs.html#why-transform-file-formats",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Why Transform File Formats?",
+    "text": "Why Transform File Formats?\nSometimes, data isn’t in the format you need it to be. Maybe it’s in a weird format your boss likes or something a client sent over that makes your eyes cross. Fortunately, R has a handy package called haven that makes reading and saving different file formats a breeze. Whether it’s a Stata .dta file, SPSS .sav file, or SAS .sas7bdat file, we’ve got you covered!"
+  },
+  {
+    "objectID": "posts/HateRs.html#getting-started-with-the-haven-package",
+    "href": "posts/HateRs.html#getting-started-with-the-haven-package",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Getting Started with the haven Package",
+    "text": "Getting Started with the haven Package\nFirst, we need to install the haven package. Packages in R are like apps on your phone—small tools that do specific tasks. To install the package, you just need to type this line of code in your script and run it:\ninstall.packages(\"haven\")\nOnce the package is installed, we need to load it into our R session using the library() function. Think of this like opening the app after you’ve downloaded it:\nlibrary(haven)"
+  },
+  {
+    "objectID": "posts/HateRs.html#reading-data-files",
+    "href": "posts/HateRs.html#reading-data-files",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Reading Data Files",
+    "text": "Reading Data Files\nLet’s say you have some data in a Stata file called data.dta and you want to get it into R. Here’s how you can do it:\n# Reading a Stata file\nmy_data &lt;- read_dta(\"path/to/your/data.dta\")\nThat’s it! The data is now in R, ready for you to explore. Let’s try another one:"
+  },
+  {
+    "objectID": "posts/HateRs.html#reading-spss-files",
+    "href": "posts/HateRs.html#reading-spss-files",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Reading SPSS Files",
+    "text": "Reading SPSS Files\nGot an SPSS file? No problem:\n# Reading an SPSS file\nmy_data &lt;- read_sav(\"path/to/your/data.sav\")"
+  },
+  {
+    "objectID": "posts/HateRs.html#reading-sas-files",
+    "href": "posts/HateRs.html#reading-sas-files",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Reading SAS Files",
+    "text": "Reading SAS Files\nAnd for you SAS users out there:\n# Reading a SAS file\nmy_data &lt;- read_sas(\"path/to/your/data.sas7bdat\")"
+  },
+  {
+    "objectID": "posts/HateRs.html#saving-data-in-another-format",
+    "href": "posts/HateRs.html#saving-data-in-another-format",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Saving Data in Another Format",
+    "text": "Saving Data in Another Format\nSo, you’ve got your data in R, and now you want to save it in another format. Maybe your boss loves Excel, or you want to send something nice and clean back to the client. Here’s how you can save your data in different formats:"
+  },
+  {
+    "objectID": "posts/HateRs.html#saving-as-a-stata-file",
+    "href": "posts/HateRs.html#saving-as-a-stata-file",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Saving as a Stata File",
+    "text": "Saving as a Stata File\nWant to save your data as a Stata file? Easy:\n# Saving as a Stata file\nwrite_dta(my_data, \"path/to/save/your_data.dta\")"
+  },
+  {
+    "objectID": "posts/HateRs.html#saving-as-an-spss-file",
+    "href": "posts/HateRs.html#saving-as-an-spss-file",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Saving as an SPSS File",
+    "text": "Saving as an SPSS File\nNeed an SPSS file? Here you go:\n# Saving as an SPSS file\nwrite_sav(my_data, \"path/to/save/your_data.sav\")"
+  },
+  {
+    "objectID": "posts/HateRs.html#saving-as-a-sas-file",
+    "href": "posts/HateRs.html#saving-as-a-sas-file",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Saving as a SAS File",
+    "text": "Saving as a SAS File\nAnd if you need to go back to SAS:\n# Saving as a SAS file\nwrite_sas(my_data, \"path/to/save/your_data.sas7bdat\")"
+  },
+  {
+    "objectID": "posts/HateRs.html#wrapping-up",
+    "href": "posts/HateRs.html#wrapping-up",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Wrapping Up",
+    "text": "Wrapping Up\nAnd there you have it—reading and saving data in different formats using the haven package in R! It might seem like a lot at first, but with just a few lines of code, you can easily transform your data files into the format you need. Remember, every expert was once a beginner, and you’re already on your way. So keep going, and don’t hesitate to try new things in R. You’ve got this!\nHappy coding! 🎉"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Michael Willox",
+    "section": "",
+    "text": "Senior Research Economist | Statistics Canada, Ottawa, Canada\nMichael.Willox@statcan.gc.ca\n\nDoctoral Researcher | Brunel University, London, UK\nMichael.Willox@brunel.ac.uk\n\nLinkedIn | GitHub | Google Scholar | ORCID | RePEc"
+  },
+  {
+    "objectID": "CV.html#work-experience",
+    "href": "CV.html#work-experience",
+    "title": "Michael Willox",
+    "section": "Work Experience",
+    "text": "Work Experience\n\nSenior Research Economist\nStatistics Canada, Ottawa, Canada\nDec 2013 – Present\n\nConducts research on economic and environmental issues to support Statistics Canada’s research agenda.\nPerforms impact evaluations for federal government departments.\nManages projects with multidisciplinary teams on a variety of projects such as building and maintaining a world-class economic and environmental database.\nBuilt and maintains an online productivity benchmarking tool for Canadian businesses.\nDeveloped data series for the Canadian System of National Accounts to support policy development.\n\n\n\nSenior Economist\nFinance Canada, Ottawa, Canada\nNov 2006 – Dec 2013\n\nContributed to the development and coordination of the Federal Government of Canada’s annual Budgets and Economic Updates.\nConducted economic analysis on productivity, competition, and labor markets.\nProvided analysis and briefings on U.S. monetary policy and global economic events.\n\n\n\nEconomist\nEnvironment and Climate Change Canada, Ottawa, Canada\nJul 2005 – Nov 2006\n\nConducted policy research and developed Greenhouse Gas (GHG) and clean air emissions forecasts using the Energy 2020 model.\nCoordinated briefing materials for senior management.\n\n\n\nEconomist\nNatural Resources Canada, Ottawa, Canada\nDec 2003 – Jun 2005\n\nConducted policy research on economic and financial issues facing Canada’s energy sector.\nDeveloped responses to public inquiries on behalf of the Minister.\n\n\n\nProgram Evaluation Analyst\nHealth Canada Departmental Program Evaluation Division, Ottawa, Canada\nJun 2002 – Nov 2003\n\nLead analyst for the evaluation of the Primary Health Care Transition Fund and Alcohol and Drug Rehabilitation Program.\nPrepared Treasury Board Submissions."
+  },
+  {
+    "objectID": "CV.html#education",
+    "href": "CV.html#education",
+    "title": "Michael Willox",
+    "section": "Education",
+    "text": "Education\n\nPhD candidate in Economics and Finance, Brunel University London, London, UK (Oct 2023 – Present)\nCanadian Securities Course, Canadian Securities Institute, Ottawa, Canada (Oct 2004)\nMA in Economics, McGill University, Montréal, Canada (Apr 2003)\nBA (Hons) in Economics, University of Regina, Regina, Canada (Oct 1996)\nBA in Political Science, University of Regina, Regina, Canada (Apr 1994)"
+  },
+  {
+    "objectID": "CV.html#computer-skills",
+    "href": "CV.html#computer-skills",
+    "title": "Michael Willox",
+    "section": "Computer Skills",
+    "text": "Computer Skills\n\nOffice Productivity: Word, Excel, Outlook, PowerPoint\nStatistical Software: R, R Studio, Shiny, SAS, Stata, Git, GitHub, GitLab, Python"
+  },
+  {
+    "objectID": "CV.html#publications",
+    "href": "CV.html#publications",
+    "title": "Michael Willox",
+    "section": "Publications",
+    "text": "Publications\nGu, W., & Willox, M. (2023). The Post-2001 Productivity Growth Divergence between Canada and the United States. International Productivity Monitor, 45, 27-60. Link.\nKumbhakar, S. C., Badunenko, O., & Willox, M. (2022). Do carbon taxes affect economic and environmental efficiency? The case of British Columbia’s manufacturing plants. Energy Economics, 115, 106359. Link.\nLiu, Huju, Lu, Y., & Willox, M. (2021). “Use of the Canada Emergency Wage Subsidy program by employer businesses in 2020.” Ottawa: Statistics Canada, Economic and Social Reports, Catalogue Number 36-28-0001. Link.\nLafrance-Cooke , A. , Macdonald, R., & Willox, M. (2020). “Monthly Business Openings and Closures: Experimental Series for Canada, the Provinces and Territories, and Census Metropolitan Areas.” Economic Insights, No. 116. Statistics Canada Cat. No. 11-626-X. Link.\nGu, W., Hussain, J., & Willox, M. (2019). Environmentally adjusted multifactor productivity growth for the Canadian manufacturing sector. Statistics Canada. Link.\nGu, W., & Willox, M. (2018). Productivity Growth in Canada and the United States: Recent Industry Trends and Potential Explanations. International Productivity Monitor, 35, 73-94. Link.\nBaldwin, J. R., & Willox, M. (2016). The industry origins of Canada’s weaker labour productivity performance and the role of structural adjustment in the post-2000 period. International Productivity Monitor, (31), 19-37. Link."
+  },
+  {
+    "objectID": "CV.html#awards",
+    "href": "CV.html#awards",
+    "title": "Michael Willox",
+    "section": "Awards",
+    "text": "Awards\n\nStatistics Canada Award of Excellence: Excellence in Project Delivery, 2017\nStatistics Canada Award of Excellence: Outstanding Contribution Award, 2020"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to My Blog\nHere you’ll find my latest posts, each with a brief description and a preview image. Click on any post to read the full article.\nHow to transform file formats using R for HateRs"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Michael Willox",
+    "section": "",
+    "text": "Senior Research Economist | Statistics Canada; Ottawa, Canada\nDoctoral Researcher | Brunel University of London; Uxbridge, London, UK\n\nThis is the homepage for my personal website. Here you can find information about my research, projects, and more (soon)."
+  }
+]

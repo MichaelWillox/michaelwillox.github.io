@@ -9,7 +9,7 @@ website:
   title: "Michael Willox"
   navbar:
     right:
-      - text: "About"
+      - text: "Home"
         href: index.qmd
       - text: "CV"
         href: CV.qmd

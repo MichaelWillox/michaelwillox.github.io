@@ -7,5 +7,14 @@
   },
   "index.qmd": {
     "index.html": "c2874394"
+  },
+  "CV.qmd": {
+    "CV.html": "0c0b9f04"
+  },
+  "blog.qmd": {
+    "blog.html": "3f5abc43"
+  },
+  "posts/HateRs.qmd": {
+    "HateRs.html": "3e14aa75"
   }
 }

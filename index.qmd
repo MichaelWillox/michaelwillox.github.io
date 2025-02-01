@@ -1,9 +1,9 @@
 ---
-title: "Welcome to Michael Willox's Website"
+title: "Michael Willox"
+image: images/LinkedInSmall.jpg
 ---
 
-# Welcome
+-   Senior Research Economist \| Statistics Canada; Ottawa, Canada
+-   Doctoral Researcher \| Brunel University of London; Uxbridge, London, UK
 
-This is the homepage for Michael Willox's website. Here you can find information about my research, projects, and more (soon).
-
--   [View My CV](CV/CV.html)
+This is the homepage for my personal website. Here you can find information about my research, projects, and more (soon).

@@ -1,10 +1,21 @@
 project:
   type: website
 
+format:
+  html:
+    theme: flatly
+
 website:
   title: "Michael Willox"
   navbar:
     right:
+      - text: "About"
+        href: index.qmd
       - text: "CV"
-        href: CV/CV.qmd
-      # Add more pages as needed
+        href: CV.qmd
+      - text: "Blog"
+        href: blog.qmd
+
+blog:
+  post-folder: posts      # Tells Quarto where your blog posts live
+  index-page: blog.qmd      # The page that lists your blog posts

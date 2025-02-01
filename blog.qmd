@@ -1,0 +1,12 @@
+---
+title: "Blog"
+blog: true
+format: html
+---
+
+# Welcome to My Blog
+
+Here you'll find my latest posts, each with a brief description and a preview image. Click on any post to read the full article.
+
+[How to transform file formats using R for HateRs](posts/HateRs.qmd)
+

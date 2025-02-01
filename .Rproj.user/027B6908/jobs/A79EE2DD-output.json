@@ -1,7 +1,0 @@
-[1,"==> quarto preview CV.qmd --to html --no-watch-inputs --no-browse\n\n"]
-[1,"pandoc \n  to: html\n  output-file: CV.html\n  standalone: true\n  title-prefix: Michael Willox\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  \n"]
-[1,"Output created: ..\\_site\\CV\\CV.html\n\nTerminating existing preview server...."]
-[1,"DONE\n\nPreparing to preview\n"]
-[1,"\n"]
-[1,"Watching files for changes\nBrowse at http://localhost:7511/CV/CV.html\n"]
-[1,"GET: /CV/CV.html\n"]

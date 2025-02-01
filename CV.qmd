@@ -24,7 +24,7 @@ format: html
 
 *Dec 2013 – Present*
 
--   Conducts medium and long-term economic analysis on economic and environmental issues to support Statistics Canada’s research agenda.
+-   Conducts research on economic and environmental issues to support Statistics Canada’s research agenda.
 
 -   Performs impact evaluations for federal government departments.
 
@@ -78,7 +78,7 @@ format: html
 
 ## Education
 
--   **PhD in Economics and Finance**, Brunel University London, London, UK (Oct 2023 – Present)
+-   **PhD candidate in Economics and Finance**, Brunel University London, London, UK (Oct 2023 – Present)
 
 -   **Canadian Securities Course**, Canadian Securities Institute, Ottawa, Canada (Oct 2004)
 

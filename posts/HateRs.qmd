@@ -1,0 +1,102 @@
+---
+title: "Transforming File Formats for HateRs"
+author: "Michael Willox"
+date: "2025-02-01"
+format: html
+excerpt: "How to transform file formats using R for HateRs."
+image: "RStudio_Screenshot.png"
+---
+
+## Introduction
+
+Welcome to the world of R! If you're reading this, chances are you're a bit hesitant about diving into R. Maybe you've heard it's complicated or you've already had a frustrating experience. Well, you're in the right place—let's make this easy and fun!
+
+First things first, let's get familiar with RStudio, the tool we'll use to work with R. Below, you'll see a screenshot of RStudio. It might look a little overwhelming at first, but don't worry! The important part for us is the script window, which is where you’ll write your R code. To open a new script, just click on **File \> New File \> R Script**. You can write your code there and save it by clicking **File \> Save** or pressing **Ctrl + S**. Easy peasy!
+
+![RStudio Screenshot](RStudio_Screenshot.png)
+
+Now, let's get down to business—transforming file formats! 🕺
+
+## Why Transform File Formats?
+
+Sometimes, data isn't in the format you need it to be. Maybe it's in a weird format your boss likes or something a client sent over that makes your eyes cross. Fortunately, R has a handy package called `haven` that makes reading and saving different file formats a breeze. Whether it’s a Stata `.dta` file, SPSS `.sav` file, or SAS `.sas7bdat` file, we’ve got you covered!
+
+## Getting Started with the `haven` Package
+
+First, we need to install the `haven` package. Packages in R are like apps on your phone—small tools that do specific tasks. To install the package, you just need to type this line of code in your script and run it:
+
+``` r
+install.packages("haven")
+```
+
+Once the package is installed, we need to load it into our R session using the library() function. Think of this like opening the app after you’ve downloaded it:
+
+``` r
+library(haven)
+```
+
+## Reading Data Files
+
+Let’s say you have some data in a Stata file called data.dta and you want to get it into R. Here’s how you can do it:
+
+``` r
+# Reading a Stata file
+my_data <- read_dta("path/to/your/data.dta")
+```
+
+That’s it! The data is now in R, ready for you to explore. Let’s try another one:
+
+## Reading SPSS Files
+
+Got an SPSS file? No problem:
+
+``` r
+# Reading an SPSS file
+my_data <- read_sav("path/to/your/data.sav")
+```
+
+## Reading SAS Files
+
+And for you SAS users out there:
+
+``` r
+# Reading a SAS file
+my_data <- read_sas("path/to/your/data.sas7bdat")
+```
+
+## Saving Data in Another Format
+
+So, you’ve got your data in R, and now you want to save it in another format. Maybe your boss loves Excel, or you want to send something nice and clean back to the client. Here’s how you can save your data in different formats:
+
+## Saving as a Stata File
+
+Want to save your data as a Stata file? Easy:
+
+``` r
+# Saving as a Stata file
+write_dta(my_data, "path/to/save/your_data.dta")
+```
+
+## Saving as an SPSS File
+
+Need an SPSS file? Here you go:
+
+``` r
+# Saving as an SPSS file
+write_sav(my_data, "path/to/save/your_data.sav")
+```
+
+## Saving as a SAS File
+
+And if you need to go back to SAS:
+
+``` r
+# Saving as a SAS file
+write_sas(my_data, "path/to/save/your_data.sas7bdat")
+```
+
+## Wrapping Up
+
+And there you have it—reading and saving data in different formats using the haven package in R! It might seem like a lot at first, but with just a few lines of code, you can easily transform your data files into the format you need. Remember, every expert was once a beginner, and you’re already on your way. So keep going, and don't hesitate to try new things in R. You've got this!
+
+Happy coding! 🎉

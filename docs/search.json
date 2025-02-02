@@ -18,21 +18,21 @@
     "href": "posts/HateRs.html#why-transform-file-formats",
     "title": "Transforming File Formats for HateRs",
     "section": "Why Transform File Formats?",
-    "text": "Why Transform File Formats?\nSometimes, data isn’t in the format you need it to be. Maybe it’s in a weird format your boss likes or something a client sent over that makes your eyes cross. Fortunately, R has a handy package called haven that makes reading and saving different file formats a breeze. Whether it’s a Stata .dta file, SPSS .sav file, or SAS .sas7bdat file, we’ve got you covered!"
+    "text": "Why Transform File Formats?\nSometimes, data isn’t in the format you need it to be. Maybe it’s in a weird format your boss likes or something a client sent over that makes your eyes cross. Fortunately, R has a handy package called haven that makes reading and saving different file formats a breeze. Whether it’s a Stata .dta file, SPSS .sav file, or SAS .sas7bdat file, it’s got you covered!"
   },
   {
     "objectID": "posts/HateRs.html#getting-started-with-the-haven-package",
     "href": "posts/HateRs.html#getting-started-with-the-haven-package",
     "title": "Transforming File Formats for HateRs",
     "section": "Getting Started with the haven Package",
-    "text": "Getting Started with the haven Package\nFirst, we need to install the haven package. Packages in R are like apps on your phone—small tools that do specific tasks. To install the package, you just need to type this line of code in your script and run it:\ninstall.packages(\"haven\")\nOnce the package is installed, we need to load it into our R session using the library() function. Think of this like opening the app after you’ve downloaded it:\nlibrary(haven)"
+    "text": "Getting Started with the haven Package\nFirst, we need to install the haven package. Packages in R are like apps on your phone—small tools that do specific tasks. To install the package, you just need to type this line of code in your script and run it:\ninstall.packages(\"haven\")\nOnce the package is installed, we need to load it into our R session using the library() function. Think of this like opening the app after you’ve downloaded it:\nlibrary(haven)\nThe next time you open RStudio, haven will still be installed, so you only need to use the library command to load it."
   },
   {
     "objectID": "posts/HateRs.html#reading-data-files",
     "href": "posts/HateRs.html#reading-data-files",
     "title": "Transforming File Formats for HateRs",
     "section": "Reading Data Files",
-    "text": "Reading Data Files\nLet’s say you have some data in a Stata file called data.dta and you want to get it into R. Here’s how you can do it:\n# Reading a Stata file\nmy_data &lt;- read_dta(\"path/to/your/data.dta\")\nThat’s it! The data is now in R, ready for you to explore. Let’s try another one:"
+    "text": "Reading Data Files\nLet’s say you have some data in a Stata file called data.stata and you want to get it into R. Here’s how you can do it:\n# Reading a Stata file\nmy_data &lt;- read_stata(\"path/to/your/data.dta\")\nYou may notice that have also include a read_dta command. however, there’s no functional difference between the two. In haven, read_dta() is simply an alias for read_stata(). Both commands do exactly the same thing. The two names exist mainly for historical and usability reasons.\nThat’s it! Let’s try another one:"
   },
   {
     "objectID": "posts/HateRs.html#reading-spss-files",
@@ -46,7 +46,7 @@
     "href": "posts/HateRs.html#reading-sas-files",
     "title": "Transforming File Formats for HateRs",
     "section": "Reading SAS Files",
-    "text": "Reading SAS Files\nAnd for you SAS users out there:\n# Reading a SAS file\nmy_data &lt;- read_sas(\"path/to/your/data.sas7bdat\")"
+    "text": "Reading SAS Files\nAnd for you SAS users out there:\n# Reading a SAS file\nmy_data &lt;- read_sas(\"path/to/your/data.sas7bdat\")\nIt’s worth noting that before haven version 1.1.0, released in March 2017, it was unable to open SAS files if they were saved using SAS’s built‐in compression. That shouldn’t be a problem any more, but if you see an error message like this\n# Error in sas7bdat::read.sas7bdat(sas_file) : \n  # file contains compressed data\nyou will know that you need to decompress the SAS file in SAS before you can open it in R.\ndata out.my_sas_data;\n set out.my_sas_data;\n  compress = off;\nrun;\nThen everything should work as expected."
   },
   {
     "objectID": "posts/HateRs.html#saving-data-in-another-format",
@@ -138,5 +138,12 @@
     "title": "Michael Willox",
     "section": "",
     "text": "Senior Research Economist | Statistics Canada; Ottawa, Canada\nDoctoral Researcher | Brunel University of London; Uxbridge, London, UK\n\nThis is the homepage for my personal website. Here you can find information about my research, projects, and more (soon)."
+  },
+  {
+    "objectID": "posts/HateRs.html#some-of-havens-most-useful-options",
+    "href": "posts/HateRs.html#some-of-havens-most-useful-options",
+    "title": "Transforming File Formats for HateRs",
+    "section": "Some of haven’s Most Useful Options",
+    "text": "Some of haven’s Most Useful Options\nWhen working with data files—especially large ones—you often don’t need every single column or row loaded into your R session. This is where haven’s options like col_select, skip, and n_max become incredibly useful. They give you finer control over the data import process, making your workflow more efficient and your code more purposeful. Let’s break down what each option does and see a few examples in action.\ncol_select The col_select option lets you specify exactly which columns to import from your dataset. This is particularly beneficial when:\nskip Sometimes data files include rows at the beginning that aren’t part of the actual dataset—maybe they contain metadata, comments, or headers that aren’t structured as data. The skip option allows you to tell haven to ignore a specified number of rows at the start of the file.\nn_max When exploring a new dataset or working with very large files, you might only want to import a subset of the data to get a feel for its structure and content. The n_max option sets an upper limit on the number of rows to read.\nBelow is a simple example in R that demonstrates how to use these options when reading a SAS file with haven:\nlibrary(haven)\n\n# Suppose we have a SAS dataset 'data.sas7bdat' and we want to:\n# - Read only the columns: age, income, and gender.\n# - Skip the first 2 rows (perhaps they contain metadata or non-data info).\n# - Limit our import to the first 100 rows for a quick preview.\n\ndata_preview &lt;- read_sas(\"data.sas7bdat\",\n                         col_select = c(age, income, gender),\n                         skip = 2,\n                         n_max = 100)\n\n# Display the first few rows of the resulting data frame\nhead(data_preview)\ncol_select = c(age, income, gender) tells haven to include only those three variables. skip = 2 instructs it to bypass the first two rows. n_max = 100 ensures that only 100 rows are read, which is perfect for an initial data exploration.\nBy using these options:\n\nYou Gain Speed: Loading only necessary parts of your data speeds up your workflow, particularly useful when dealing with large files.\nYou Save Resources: Less memory is consumed, which is ideal when working in environments with limited resources.\nYou Enhance Clarity: Your code explicitly shows which parts of the dataset you need, making it easier for others (and your future self) to understand your workflow."
   }
 ]

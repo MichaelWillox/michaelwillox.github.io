@@ -9,7 +9,7 @@ path <- "C:/Users/micha/_Work/Software/michaelwillox.github.io"
 
 # List the files recursively
 files <- fs::dir_tree(path)
-writeLines(files, "C:/Users/micha/_Work/Software/michaelwillox.github.io/directory_tree.txt")
+#writeLines(files, "C:/Users/micha/_Work/Software/michaelwillox.github.io/directory_tree.txt")
 
 # # Print the directory tree
 # cat(files, sep = "/n")

@@ -21,7 +21,7 @@ website:
 
 format:
   html:
-    theme: cosmo  # You can change this to another theme if desired
+    theme: flatly  # You can change this to another theme if desired
     toc: true     # Enable table of contents on all pages
     toc-depth: 2  # Adjust depth of the table of contents
     number-sections: false

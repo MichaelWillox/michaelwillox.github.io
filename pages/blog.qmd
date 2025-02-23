@@ -8,11 +8,17 @@ listing:
   fields: [title, date, description, image]
 format:
   html:
+    theme: flatly
     toc: true
     toc-depth: 2
 ---
 
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.style.backgroundColor = '#fff8e7';
+});
+</script>
 
 ### Here you'll find my latest posts, each with a brief description and a preview image. Click on any post to read the full article.
 

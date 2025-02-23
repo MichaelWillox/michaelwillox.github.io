@@ -1,5 +1,7 @@
 ---
-format: html
+format:
+  html:
+    theme: flatly
 ---
 
 ::: {style="text-align: center;"}

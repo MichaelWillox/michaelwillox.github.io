@@ -1,7 +1,16 @@
 ---
 title: "Research"
-format: html
+format:
+  html:
+    theme: flatly
 ---
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.style.backgroundColor = '#f8f4ff';
+});
+</script>
+
 
 ### Selected Work
 

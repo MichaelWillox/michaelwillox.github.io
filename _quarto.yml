@@ -36,4 +36,3 @@ collections:
       limit: 10                 # Show up to 10 posts
       type: default             # Use the default listing format
       fields: [title, date, description, image]  # Show title, date, and description
-

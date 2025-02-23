@@ -37,5 +37,8 @@
   },
   "docs/pages/research.qmd": {
     "research.html": "f8b2d59f"
+  },
+  "test.qmd": {
+    "test.html": "1ae2c835"
   }
 }

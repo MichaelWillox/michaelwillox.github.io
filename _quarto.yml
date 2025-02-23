@@ -1,22 +1,39 @@
 project:
   type: website
-  output-dir: docs
-
-format:
-  html:
-    theme: flatly
+  output-dir: docs  # Outputs rendered site to the 'docs' folder for GitHub Pages
 
 website:
   title: "Michael Willox"
   navbar:
     right:
-      - text: "Home"
+      - text: About
         href: index.qmd
-      - text: "CV"
-        href: CV.qmd
-      - text: "Blog"
-        href: blog.qmd
+      - text: Research
+        href: pages/research.qmd
+      - text: Blog
+        href: pages/blog.qmd
+      - text: CV
+        href: pages/CV.qmd
+  search: true  # Enable site-wide search
+  page-footer:
+    left: "© 2025 Michael Willox"
+    right: "Built with [Quarto](https://quarto.org/)"
 
-blog:
-  post-folder: posts      # Tells Quarto where your blog posts live
-  index-page: blog.qmd      # The page that lists your blog posts
+format:
+  html:
+    theme: cosmo  # You can change this to another theme if desired
+    toc: true     # Enable table of contents on all pages
+    toc-depth: 2  # Adjust depth of the table of contents
+    number-sections: false
+
+collections:
+  posts:
+    directory: posts        # The parent directory where the blog posts are stored
+    categories: true        # Enable categories in posts
+    listing:
+      contents: pages/blog.qmd  # Use pages/blog.qmd as the listing page
+      sort: date                # Sort posts by date
+      limit: 10                 # Show up to 10 posts
+      type: default             # Use the default listing format
+      fields: [title, date, description, image]  # Show title, date, and description
+

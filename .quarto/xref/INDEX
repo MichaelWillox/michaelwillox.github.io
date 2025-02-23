@@ -16,5 +16,26 @@
   },
   "posts/HateRs.qmd": {
     "HateRs.html": "3e14aa75"
+  },
+  "pages/blog.qmd": {
+    "blog.html": "af17b77f"
+  },
+  "pages/CV.qmd": {
+    "CV.html": "bff527a7"
+  },
+  "posts/HateRs/index.qmd": {
+    "index.html": "2a780077"
+  },
+  "posts/mobile_data_prices/index.qmd": {
+    "index.html": "6b22cd72"
+  },
+  "pages/Research.qmd": {
+    "Research.html": "17560476"
+  },
+  "pages/research.qmd": {
+    "research.html": "a185631c"
+  },
+  "docs/pages/research.qmd": {
+    "research.html": "f8b2d59f"
   }
 }

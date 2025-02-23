@@ -8,6 +8,7 @@
 
 <meta name="author" content="Michael Willox">
 <meta name="dcterms.date" content="2025-02-01">
+<meta name="description" content="How to read and save SAS, Stata, SPSS, and other file formats using R for people who hate R.">
 
 <title>Michael Willox - Transforming File Formats for HateRs</title>
 <style>
@@ -59,22 +60,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -106,14 +107,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Michael Willox</span>
     </a>
   </div>
@@ -124,16 +125,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../CV.html"> 
-<span class="menu-text">CV</span></a>
+    <a class="nav-link" href="../../pages/blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../../pages/CV.html"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -146,15 +147,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#why-transform-file-formats" id="toc-why-transform-file-formats" class="nav-link" data-scroll-target="#why-transform-file-formats">Why Transform File Formats?</a></li>
+  <li><a href="#getting-started-with-the-haven-package" id="toc-getting-started-with-the-haven-package" class="nav-link" data-scroll-target="#getting-started-with-the-haven-package">Getting Started with the <code>haven</code> Package</a></li>
+  <li><a href="#reading-data-files" id="toc-reading-data-files" class="nav-link" data-scroll-target="#reading-data-files">Reading Data Files</a></li>
+  <li><a href="#reading-spss-files" id="toc-reading-spss-files" class="nav-link" data-scroll-target="#reading-spss-files">Reading SPSS Files</a></li>
+  <li><a href="#reading-sas-files" id="toc-reading-sas-files" class="nav-link" data-scroll-target="#reading-sas-files">Reading SAS Files</a></li>
+  <li><a href="#some-of-havens-most-useful-options" id="toc-some-of-havens-most-useful-options" class="nav-link" data-scroll-target="#some-of-havens-most-useful-options">Some of <code>haven</code>’s Most Useful Options</a></li>
+  <li><a href="#saving-data-in-another-format" id="toc-saving-data-in-another-format" class="nav-link" data-scroll-target="#saving-data-in-another-format">Saving Data in Another Format</a></li>
+  <li><a href="#saving-as-a-stata-file" id="toc-saving-as-a-stata-file" class="nav-link" data-scroll-target="#saving-as-a-stata-file">Saving as a Stata File</a></li>
+  <li><a href="#saving-as-an-spss-file" id="toc-saving-as-an-spss-file" class="nav-link" data-scroll-target="#saving-as-an-spss-file">Saving as an SPSS File</a></li>
+  <li><a href="#saving-as-a-sas-file" id="toc-saving-as-a-sas-file" class="nav-link" data-scroll-target="#saving-as-a-sas-file">Saving as a SAS File</a></li>
+  <li><a href="#wrapping-up" id="toc-wrapping-up" class="nav-link" data-scroll-target="#wrapping-up">Wrapping Up</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Transforming File Formats for HateRs</h1>
-</div>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Data Management</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    How to read and save SAS, Stata, SPSS, and other file formats using R for people who hate R.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -692,6 +721,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 Michael Willox</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
 
 
 

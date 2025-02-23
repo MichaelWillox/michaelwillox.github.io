@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/pages/blog.html",
+      "/pages/CV.html",
+      "/posts/HateRs/index.html",
+      "/posts/mobile_data_prices/index.html"
+    ]
+  },
+  {
+    "listing": "/pages/blog.html",
+    "items": [
+      "/posts/HateRs/index.html",
+      "/posts/mobile_data_prices/index.html"
+    ]
+  }
+]

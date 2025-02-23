@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Michael Willox’s blog">
 
-<title>Michael Willox</title>
+<title>Michael Willox - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,7 +69,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -77,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Michael Willox</span>
     </a>
   </div>
@@ -88,19 +122,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pages/research.html"> 
+    <a class="nav-link" href="../research.qmd"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pages/blog.html"> 
+    <a class="nav-link active" href="../pages/blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pages/CV.html"> 
+    <a class="nav-link" href="../pages/CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -122,9 +156,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Michael Willox</h1>
+<h1 class="title">Blog</h1>
 </div>
 
+<div>
+  <div class="description">
+    Michael Willox’s blog
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -139,28 +178,70 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img src="./images/LinkedInSmall.jpg" class="img-fluid" width="300"></p>
-</div><div class="column" style="width:60%;">
-<section id="welcome-to-my-personal-website" class="level1">
-<h1>Welcome to My Personal Website</h1>
-<p>This is the homepage for my personal website. Here you can find information about me, my research, projects, and more (soon).</p>
-<p>These are my personal views and opinions and do not reflect those of my employer or any affiliated organizations. Nothing on this website contains any confidential information.</p>
-</section>
-</div>
-</div>
-<section id="what-i-do" class="level3">
-<h3 class="anchored" data-anchor-id="what-i-do">What I do:</h3>
-<ul>
-<li><strong>Senior Research Economist</strong> | Statistics Canada; Ottawa, Canada</li>
-<li><strong>Doctoral Researcher</strong> | Brunel University of London; Uxbridge, London, UK</li>
-</ul>
+<section id="here-youll-find-my-latest-posts-each-with-a-brief-description-and-a-preview-image.-click-on-any-post-to-read-the-full-article." class="level3">
+<h3 class="anchored" data-anchor-id="here-youll-find-my-latest-posts-each-with-a-brief-description-and-a-preview-image.-click-on-any-post-to-read-the-full-article.">Here you’ll find my latest posts, each with a brief description and a preview image. Click on any post to read the full article.</h3>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="R,Data Management" data-listing-date-sort="1738386000000" data-listing-file-modified-sort="1740274740401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1149">
+<div class="thumbnail">
+<p><a href="../posts/HateRs/index.html" class="no-external"></a></p><a href="../posts/HateRs/index.html" class="no-external">
+<p><img src="../posts/HateRs/RStudio_Screenshot.png" class="thumbnail-image"></p>
+</a><p><a href="../posts/HateRs/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/HateRs/index.html" class="no-external">Transforming File Formats for HateRs</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/HateRs/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../posts/HateRs/index.html" class="no-external">How to read and save SAS, Stata, SPSS, and other file formats using R for people who hate R.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/HateRs/index.html" class="no-external">
+<div class="listing-date">
+Feb 1, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Data,Blog" data-listing-date-sort="1740200400000" data-listing-file-modified-sort="1740273352340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1215">
+<div class="thumbnail">
+<p><a href="../posts/mobile_data_prices/index.html" class="no-external"></a></p><a href="../posts/mobile_data_prices/index.html" class="no-external">
+<p><img src="../posts/mobile_data_prices/bump_chart.svg" class="thumbnail-image"></p>
+</a><p><a href="../posts/mobile_data_prices/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/mobile_data_prices/index.html" class="no-external">Why Canadians Pay 60 Times more than Italians for their Mobile Data and the Shifting Frontiers of Global Telecom Competitiveness</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/mobile_data_prices/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../posts/mobile_data_prices/index.html" class="no-external">An analysis of mobile data pricing trends across regions.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/mobile_data_prices/index.html" class="no-external">
+<div class="listing-date">
+Feb 22, 2025
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

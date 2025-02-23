@@ -1,9 +1,25 @@
 ---
 title: "Michael Willox"
-image: images/LinkedInSmall.jpg
+image: "/images/LinkedInSmall.jpg"
 ---
 
--   Senior Research Economist \| Statistics Canada; Ottawa, Canada
--   Doctoral Researcher \| Brunel University of London; Uxbridge, London, UK
+::: columns
+::: {.column width="40%"}
+![](./images/LinkedInSmall.jpg){ width=300px }
+:::
 
-This is the homepage for my personal website. Here you can find information about my research, projects, and more (soon).
+::: {.column width="60%"}
+
+# Welcome to My Personal Website
+
+This is the homepage for my personal website. Here you can find information about me, my research, projects, and more (soon). 
+
+These are my personal views and opinions and do not reflect those of my employer or any affiliated organizations. Nothing on this website contains any confidential information.
+:::
+:::
+
+### What I do:
+
+- **Senior Research Economist** | Statistics Canada; Ottawa, Canada
+- **Doctoral Researcher** | Brunel University of London; Uxbridge, London, UK
+

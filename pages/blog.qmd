@@ -1,0 +1,36 @@
+---
+title: "Blog"
+description: "Michael Willox's blog"
+listing:
+  contents: ../posts/*/index.qmd  # Use a wildcard to match index.qmd in each subdirectory
+  sort: date
+  type: default
+  fields: [title, date, description, image]
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+
+
+### Here you'll find my latest posts, each with a brief description and a preview image. Click on any post to read the full article.
+
+
+```{r}
+#| echo: false
+#| include: false
+blog_posts <- list.files("../posts", full.names = TRUE, pattern = "index.qmd")
+blog_posts <- blog_posts[order(file.info(blog_posts)$mtime, decreasing = TRUE)]
+
+
+for (post in blog_posts) {
+  post_meta <- quarto::quarto_render(post, read = TRUE)
+  cat(paste0("<div class='post'>",
+             "<img src='", post_meta$image, "' alt='Thumbnail' style='width:100px;height:auto;'>",
+             "<h2>", post_meta$title, "</h2>",
+             "<p>", post_meta$date, "</p>",
+             "<p>", post_meta$description, "</p>",
+             "</div><hr>"))
+}
+```

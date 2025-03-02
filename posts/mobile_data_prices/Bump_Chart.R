@@ -5,7 +5,7 @@ library(ggrepel)  # For automatic label adjustment
 library(openxlsx)
 library(janitor)
 
-dat <- read.xlsx("Data/worldwide_mobile_data_pricing_data.xlsx", 
+dat <- read.xlsx("posts/mobile_data_prices/worldwide_mobile_data_pricing_data.xlsx", 
                  sheet = "Historical Data")
 dat <- dat %>% 
  select(Name, `Average.price.of.1GB.(USD.–.2023)`, `Average.price.of.1GB.(USD.–.2022)`,
@@ -78,33 +78,34 @@ ggplot(dat_long, aes(x = Year, y = Rank, group = Country, color = Country)) +
                    box.padding = 0.3, force = 5) +
   # Labels on the left (2019) with leader lines
   geom_text_repel(data = label_data_left, aes(label = Country), 
-                  hjust = 1, size = 4, fontface = "bold", 
-                  nudge_x = -0.6, segment.size = 0.5, segment.color = "gray50") +
+                  hjust = 1, size = 6, fontface = "bold", 
+                  nudge_x = -1.4, segment.size = 0.5, segment.color = "gray50") +
   # Labels on the right (2023) with leader lines
   geom_text_repel(data = label_data_right, aes(label = Country), 
-                  hjust = 0, size = 4, fontface = "bold", 
-                  nudge_x = 0.6, segment.size = 0.5, segment.color = "gray50") +
+                  hjust = 0, size = 6, fontface = "bold", 
+                  nudge_x = 1.4, segment.size = 0.5, segment.color = "gray50") +
   scale_y_reverse(breaks = seq(0, 225, by = 25)) +  # Scale y-axis in intervals of 25
   scale_x_continuous(breaks = seq(2019, 2023, by = 1)) +  # Ensure only 2019-2023 appear
   scale_color_manual(values = custom_colors) +  # Assign custom colors
-  coord_cartesian(xlim = c(2018.7, 2023.3), clip = "off") +  # Adjust space for labels
+  coord_cartesian(xlim = c(2018.0, 2024.0), clip = "off") +  # Adjust space for labels
   labs(title = "The Cost of 1GB Mobile Data (2019-2023, USD)",
        x = NULL,  # Remove "Year" from x-axis
        y = "Rank (Lower is Better)",
-       caption = "Source: Cable.co.uk, \"The cost of 1GB of mobile data in 237 countries, 2023\". https://www.cable.co.uk/mobiles/worldwide-data-pricing. 
+       caption = "Source: Image by author. Data from Cable.co.uk, \"The cost of 1GB of mobile data in 237 countries, 2023\". https://www.cable.co.uk/mobiles/worldwide-data-pricing. 
        Prices are in USD at September 2023 exchange rates.") +  # Add footnote
   theme_minimal() +
   theme(
     legend.position = "none",  # Hide legend for clarity
-    text = element_text(size = 14),  # Adjust general text size
-    plot.title = element_text(hjust = 0.5, size = 20, face = "bold"),
+    text = element_text(size = 16),  # Adjust general text size
+    plot.title = element_text(hjust = 0.5, size = 32, face = "bold"),
     axis.text = element_text(size = 16, color = "black"),  # Increase axis text size and set to black
-    axis.title = element_text(size = 18, color = "black"),  # Increase axis labels and set to black
+    axis.title = element_text(size = 22, color = "black"),  # Increase axis labels and set to black
     panel.grid.major = element_line(color = "black", linetype = "dotted"),  # Darker grid lines
     panel.grid.minor = element_blank(),  # Remove minor grid lines
-    plot.caption = element_text(size = 10, hjust = 0, face = "italic"),  # Left-align footnote
-    plot.caption.position = "plot"  # Ensure caption is placed within the plot area
+    plot.caption = element_text(size = 12, hjust = 0, face = "italic"),  # Left-align footnote
+    plot.caption.position = "plot",  # Ensure caption is placed within the plot area
+    plot.margin = margin(t = 20, r = 120, b = 20, l = 110)  # Increase left/right margins
   )
 
-ggsave("images/bump_chart.svg", width = 14, height = 10, device = "svg")
-ggsave("images/bump_chart.png", width = 14, height = 10, dpi = 600, bg = "white")
+ggsave("posts/mobile_data_prices//bump_chart.svg", width = 16, height = 9, device = "svg")
+ggsave("posts/mobile_data_prices//bump_chart.png", width = 16, height = 9, dpi = 300, bg = "white")

@@ -1,45 +1,59 @@
 ---
 title: "Why Canadians Pay 60 Times more than Italians for their Mobile Data and the Shifting Frontiers of Global Telecom Competitiveness"
 date: "2025-03-01"
-author: "Michael Willox"
-format: html
-editor: visual
+type: post
+categories: [R, Productivity, Competition, Telecoms]
+description: "The 2023 global ranking of mobile data prices shows a clear divide between the most competitive markets—where data costs are consistently low—and countries like Canada."
+image: "./bump_chart.svg" # Thumbnail for listings and social sharin
 ---
 
 ![](./bump_chart.svg)
 
 ## The United States as an Economic Benchmark—But Not for Telecom
+
 I have often argued that there are several reasons why the U.S. makes a better comparator for Canada than other advanced economies. As a country that often leads other nations in measures of economic performance, like GDP and productivity growth, advancements in innovation and technology, and competitive intensity, the U.S. in many ways defines the frontier of economic performance. That frontier represents the potential that similarly advanced economies could achieve but fail to reach. Consequently, the U.S. has been the default country of choice for benchmarking global economic performance for many countries, none more so than Canada.
 
-However, there are always exceptions. A striking example comes from a report published by Cable.co.uk called [The Cost of 1GB of Mobile Data in 237 Countries, 2023, https://bestbroadbanddeals.co.uk/mobiles/worldwide-data-pricing/]. It compares median prices for mobile data plans globally from 2019 to 2023. Out of curiosity, I spent an evening comparing prices for Canada to those of other G7 countries and a few others of interest for a broader comparison group. What I found made it clear that the U.S. is the least suitable as a benchmark for success. In a country vaunted for its entrepreneurial spirit, weakening price competition among major U.S. telecoms has deteriorated from a poor ranking of 151 (\$8.34 per GB) out of 237 countries in 2019 to a dismal 219^th^ (\$6.00 per GB) overall in 2023. 
+However, there are always exceptions. A striking example comes from a report published by Cable.co.uk called \[The Cost of 1GB of Mobile Data in 237 Countries, 2023, https://bestbroadbanddeals.co.uk/mobiles/worldwide-data-pricing/\]. It compares median prices for mobile data plans globally from 2019 to 2023. Out of curiosity, I spent an evening comparing prices for Canada to those of other G7 countries and a few others of interest for a broader comparison group. What I found made it clear that the U.S. is the least suitable as a benchmark for success. In a country vaunted for its entrepreneurial spirit, weakening price competition among major U.S. telecoms has deteriorated from a poor ranking of 151 (\$8.34 per GB) out of 237 countries in 2019 to a dismal 219^th^ (\$6.00 per GB) overall in 2023.
 
 ## The High Cost of Mobile Data in Canada
+
 The 2023 global ranking of mobile data prices shows a clear divide between the most competitive markets—where data costs are consistently low—and countries like Canada, where prices remain stubbornly high despite overall global declines. While the price of mobile data has dropped worldwide over the last five years, Canada remains an outlier.
 
-In 2023, Canada ranked 216^th^ out of 237 countries, with an average price of \$5.37 per GB. While this is an improvement from 2019, when the price was $13.21 per GB, it is still among the highest costs in the developed world. The only G7 country with higher prices was the U.S. However, this does not make Canada’s pricing more competitive—it merely highlights that both countries are outliers compared to global trends.
+In 2023, Canada ranked 216^th^ out of 237 countries, with an average price of \$5.37 per GB. While this is an improvement from 2019, when the price was \$13.21 per GB, it is still among the highest costs in the developed world. The only G7 country with higher prices was the U.S. However, this does not make Canada’s pricing more competitive—it merely highlights that both countries are outliers compared to global trends.
 
 Meanwhile, the lowest-cost countries—Italy (\$0.09 per GB), France (\$0.20 per GB), and Israel (\$0.02 per GB)—have sustained extremely low prices while maintaining world-class telecom infrastructure. Other geographically large nations, such as Australia (\$0.44 per GB) and Finland, with a cold climate and a relatively small market (\$0.52 per GB), also manage to offer mobile data at a fraction of Canada’s cost.
 
 ## Why the United States is a Poor Comparator for Canada’s Telecom Market
-Canadian telecom companies often justify high prices by pointing to the U.S. as a benchmark and argue that vast geography, low population density, and high infrastructure costs make it difficult to lower prices. Yet, if these were the primary determinants of pricing, we would expect similar trends in other large, sparsely populated, high-income countries. Instead, the data tells a different story.^[Telecom Regulatory Policy CRTC 2021-130, https://crtc.gc.ca/eng/archive/2021/2021-130.htm] ^[Telecom Regulatory Policy CRTC 2018-377, https://crtc.gc.ca/eng/archive/2018/2018-377.htm]
+
+Canadian telecom companies often justify high prices by pointing to the U.S. as a benchmark and argue that vast geography, low population density, and high infrastructure costs make it difficult to lower prices. Yet, if these were the primary determinants of pricing, we would expect similar trends in other large, sparsely populated, high-income countries. Instead, the data tells a different story.[^1] [^2]
+
+[^1]: Telecom Regulatory Policy CRTC 2021-130, https://crtc.gc.ca/eng/archive/2021/2021-130.htm
+
+[^2]: Telecom Regulatory Policy CRTC 2018-377, https://crtc.gc.ca/eng/archive/2018/2018-377.htm
 
 One of the main problems with using the U.S. as a comparison is that it is not a model of telecom competition. The American mobile market is dominated by three major providers—Verizon, AT&T, and T-Mobile—with limited price competition. Using the U.S. as a benchmark only reinforces a high-cost, low-competition model rather than one that fosters affordability.
 
 In *The Great Reversal: How America Gave Up on Free Markets*, economist Thomas Philippon examines the decline in competitiveness within the U.S. telecom industry. He attributes this trend to the combination of market consolidation, weakened antitrust enforcement, and increased corporate lobbying, which have led to a less competitive environment. As a result, consumers face higher prices and reduced service quality.
 
 ## How Other Countries Keep Mobile Data Costs Low
+
 A look at how other countries have driven down mobile data costs over time suggests that Canada can learn more from countries that persistently define the frontier of success when it comes to a competitive telecom sector.
 
 Other geographically large nations have managed to keep prices low while maintaining strong network infrastructure. Australia, for example, ranked 39^th^ in 2023 with an average price of \$0.44 per GB—over 12 times cheaper than in Canada. Finland ranked 48^th^ in 2023, offering mobile data at \$0.52 per GB. These countries demonstrate that network infrastructure costs alone do not dictate pricing. Instead, they have reduced barriers to entry, encouraged multiple low-cost providers and prevented telecom monopolies from setting artificially high prices.
 
-Countries, such as France and Italy, have aggressively enforced competition by allowing multiple low-cost providers to operate, requiring infrastructure sharing, and preventing major telecom companies from controlling the market. In contrast, Canada’s telecom sector remains highly concentrated, with Bell, Rogers, and Telus controlling the vast majority of mobile services. While Italy and France each have only one more nationwide telecom provider, a significant complementary factor appears to be low barriers to entry for new competitors. 
+Countries, such as France and Italy, have aggressively enforced competition by allowing multiple low-cost providers to operate, requiring infrastructure sharing, and preventing major telecom companies from controlling the market. In contrast, Canada’s telecom sector remains highly concentrated, with Bell, Rogers, and Telus controlling the vast majority of mobile services. While Italy and France each have only one more nationwide telecom provider, a significant complementary factor appears to be low barriers to entry for new competitors.
 
-The Italian mobile telecom market, for example, is characterized by intense price competition, which has significantly eroded operators' profit margins. This competitive environment has been intensified by the entry of new players, such as the French telecom group Iliad in 2018, which disrupted the market with aggressive pricing strategies. The presence of multiple operators striving for market share has driven prices down, benefiting consumers. ^[FitchRatings, https://www.fitchratings.com/research/corporate-finance/iliad-entry-intensifies-competition-in-italian-mobile-08-08-2018] Similarly, France's mobile data market is highly competitive, with four major operators sharing the consumer base. This has led to some of the lowest prices in Europe.
+The Italian mobile telecom market, for example, is characterized by intense price competition, which has significantly eroded operators' profit margins. This competitive environment has been intensified by the entry of new players, such as the French telecom group Iliad in 2018, which disrupted the market with aggressive pricing strategies. The presence of multiple operators striving for market share has driven prices down, benefiting consumers. [^3] Similarly, France's mobile data market is highly competitive, with four major operators sharing the consumer base. This has led to some of the lowest prices in Europe.
+
+[^3]: FitchRatings, https://www.fitchratings.com/research/corporate-finance/iliad-entry-intensifies-competition-in-italian-mobile-08-08-2018
 
 ## What Canada Can Learn from More Competitive Telecom Markets
+
 If Canada wants to reduce mobile data prices, it should take lessons from countries that have successfully created competitive markets. France and Italy have managed to drive prices down to some of the lowest levels in the world while maintaining high-quality networks. Their regulatory bodies promote fair competition and market entry, ensuring that competition remains strong without resorting to government-imposed price controls.
 
-That said, no one should believe that Europe has all the answers. Mario Draghi's recommendation in *The Future of European Competitiveness* to allow consolidation may achieve better profitability and additional investment for the EU's 34 mobile network operators (MNOs).^[The Future of European Competitiveness, https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en] Countries with smaller populations, like Finland, Sweden and Norway, that have struggled to remain competitive, may benefit the most from the increase in integration and scale that concentration provides. However, if the cost of 1GB of mobile data is any indicator, allowing concentration to reduce the number of MNOs to just three, as in the U.S. and Canada, may be going too far. While both Italy and France have regulatory frameworks that promote competition, their low mobile data prices are primarily a result of market forces, with low barriers to entry and a sufficient number of operators competitively pricing their services to attract and retain customers.
+That said, no one should believe that Europe has all the answers. Mario Draghi's recommendation in *The Future of European Competitiveness* to allow consolidation may achieve better profitability and additional investment for the EU's 34 mobile network operators (MNOs).[^4] Countries with smaller populations, like Finland, Sweden and Norway, that have struggled to remain competitive, may benefit the most from the increase in integration and scale that concentration provides. However, if the cost of 1GB of mobile data is any indicator, allowing concentration to reduce the number of MNOs to just three, as in the U.S. and Canada, may be going too far. While both Italy and France have regulatory frameworks that promote competition, their low mobile data prices are primarily a result of market forces, with low barriers to entry and a sufficient number of operators competitively pricing their services to attract and retain customers.
+
+[^4]: The Future of European Competitiveness, https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en
 
 Canada’s high telecom prices are not inevitable. While infrastructure and investment costs play a role, they do not fully explain why Canadians continue to pay more for mobile data than people in countries with similar challenges. The fact that Australia, Finland, and several European nations have dramatically lower prices suggests that Canada’s telecom sector is suffering from a lack of effective competition.
 

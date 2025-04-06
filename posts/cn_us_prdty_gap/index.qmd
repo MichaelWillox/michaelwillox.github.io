@@ -1,9 +1,9 @@
 ---
 title: "The Canada-U.S. Productivity Growth Gap"
 date: "2025-04-06"
-author: "Michael Willox"
-format: html
-editor: visual
+categories: [R, Productivity, Data]
+description: "A comparison of Canadian and U.S. business sector labour productivity growth from 1961 to 2024."
+image: "cn_us_lp_gap_61-24.svg" # Thumbnail for listings and social sharin
 ---
 
 ![](cn_us_lp_gap_61-24.svg)

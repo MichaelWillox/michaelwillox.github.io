@@ -41,5 +41,11 @@
   },
   "test.qmd": {
     "test.html": "1ae2c835"
+  },
+  "pages/about.qmd": {
+    "about.html": "156bed2d"
+  },
+  "posts/cn_us_prdty_gap/index.qmd": {
+    "index.html": "77c9d622"
   }
 }

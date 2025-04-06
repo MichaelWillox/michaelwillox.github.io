@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='720.00pt' height='405.00pt' viewBox='0 0 720.00 405.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw0MDUuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='405.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw0MDUuMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpNDEuNzl8NzE0LjUyfDI3LjY0fDMxMi40MQ=='>
+    <rect x='41.79' y='27.64' width='672.74' height='284.77' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNDEuNzl8NzE0LjUyfDI3LjY0fDMxMi40MQ==)'>
+<polyline points='41.79,299.47 714.52,299.47 ' style='stroke-width: 1.07; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.79,252.31 714.52,252.31 ' style='stroke-width: 1.07; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.79,205.16 714.52,205.16 ' style='stroke-width: 1.07; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.79,158.00 714.52,158.00 ' style='stroke-width: 1.07; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.79,110.85 714.52,110.85 ' style='stroke-width: 1.07; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='41.79,63.69 714.52,63.69 ' style='stroke-width: 1.07; stroke: #CCCCCC; stroke-linecap: butt;' />
+<polyline points='72.36,299.47 81.10,295.09 89.84,290.69 98.57,286.46 107.31,281.91 116.05,279.18 124.78,278.08 133.52,270.94 142.26,266.95 151.00,262.50 159.73,259.31 168.47,253.99 177.21,250.52 185.94,250.10 194.68,247.47 203.42,237.08 212.15,231.06 220.89,229.97 229.63,231.80 238.36,231.77 247.10,228.55 255.84,224.39 264.57,218.82 273.31,213.14 282.05,210.98 290.78,212.30 299.52,210.74 308.26,207.83 317.00,206.93 325.73,206.82 334.47,207.08 343.21,202.78 351.94,199.60 360.68,194.83 369.42,192.84 378.15,193.90 386.89,187.65 395.63,182.47 404.36,174.19 413.10,164.35 421.84,160.71 430.57,157.25 439.31,156.31 448.05,154.91 456.78,149.83 465.52,145.94 474.26,145.31 482.99,147.92 491.73,150.41 500.47,147.01 509.21,141.33 517.94,141.49 526.68,136.54 535.42,127.20 544.15,127.59 552.89,125.55 561.63,120.86 570.36,119.80 579.10,119.37 587.84,95.07 596.57,109.80 605.31,111.43 614.05,117.40 622.78,115.79 ' style='stroke-width: 2.67; stroke: #FF0000; stroke-linecap: butt;' />
+<polyline points='72.36,299.47 81.10,295.15 89.84,291.41 98.57,288.29 107.31,284.45 116.05,280.00 124.78,277.38 133.52,273.32 142.26,272.71 151.00,270.38 159.73,265.39 168.47,261.07 177.21,257.08 185.94,259.45 194.68,254.78 203.42,250.16 212.15,247.54 220.89,245.79 229.63,245.61 238.36,245.67 247.10,242.52 255.84,243.38 264.57,238.25 273.31,233.82 282.05,230.17 290.78,225.56 299.52,224.65 308.26,222.11 317.00,220.15 325.73,216.73 334.47,213.92 343.21,205.58 351.94,205.39 360.68,204.31 369.42,202.99 378.15,198.33 386.89,194.12 395.63,187.29 404.36,178.89 413.10,172.13 421.84,166.29 430.57,156.66 439.31,147.63 448.05,139.89 456.78,134.22 465.52,131.65 474.26,127.35 482.99,123.70 491.73,112.65 500.47,103.52 509.21,104.04 517.94,102.01 526.68,98.88 535.42,96.63 544.15,93.04 552.89,90.69 561.63,86.66 570.36,82.12 579.10,75.43 587.84,58.87 596.57,51.64 605.31,56.48 614.05,50.13 622.78,40.59 ' style='stroke-width: 2.67; stroke: #0000FF; stroke-linecap: butt;' />
+<line x1='413.10' y1='312.41' x2='413.10' y2='27.64' style='stroke-width: 1.60; stroke-dasharray: 8.54,8.54; stroke-linecap: butt;' />
+<line x1='579.10' y1='312.41' x2='579.10' y2='27.64' style='stroke-width: 1.60; stroke-dasharray: 8.54,8.54; stroke-linecap: butt;' />
+<text x='194.68' y='122.11' text-anchor='middle' style='font-size: 11.38px; font-family: "Arial";' textLength='63.90px' lengthAdjust='spacingAndGlyphs'>1961 - 2000 </text>
+<text x='194.68' y='138.50' text-anchor='middle' style='font-size: 11.38px; font-family: "Arial";' textLength='84.77px' lengthAdjust='spacingAndGlyphs'> Canada: 2.31% </text>
+<text x='194.68' y='154.89' text-anchor='middle' style='font-size: 11.38px; font-family: "Arial";' textLength='57.55px' lengthAdjust='spacingAndGlyphs'> US: 2.22%</text>
+<text x='500.47' y='216.42' text-anchor='middle' style='font-size: 11.38px; font-family: "Arial";' textLength='63.90px' lengthAdjust='spacingAndGlyphs'>2000 - 2019 </text>
+<text x='500.47' y='232.81' text-anchor='middle' style='font-size: 11.38px; font-family: "Arial";' textLength='84.77px' lengthAdjust='spacingAndGlyphs'> Canada: 0.95% </text>
+<text x='500.47' y='249.20' text-anchor='middle' style='font-size: 11.38px; font-family: "Arial";' textLength='57.55px' lengthAdjust='spacingAndGlyphs'> US: 1.92%</text>
+<text x='657.73' y='74.95' text-anchor='middle' style='font-size: 11.38px; font-family: "Arial";' textLength='63.90px' lengthAdjust='spacingAndGlyphs'>2019 - 2024 </text>
+<text x='657.73' y='91.34' text-anchor='middle' style='font-size: 11.38px; font-family: "Arial";' textLength='84.77px' lengthAdjust='spacingAndGlyphs'> Canada: 0.26% </text>
+<text x='657.73' y='107.73' text-anchor='middle' style='font-size: 11.38px; font-family: "Arial";' textLength='57.55px' lengthAdjust='spacingAndGlyphs'> US: 2.10%</text>
+</g>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw0MDUuMDA=)'>
+<text x='36.85' y='303.23' text-anchor='end' style='font-size: 10.50px; font-family: "Arial";' textLength='17.52px' lengthAdjust='spacingAndGlyphs'>100</text>
+<text x='36.85' y='256.07' text-anchor='end' style='font-size: 10.50px; font-family: "Arial";' textLength='17.52px' lengthAdjust='spacingAndGlyphs'>150</text>
+<text x='36.85' y='208.92' text-anchor='end' style='font-size: 10.50px; font-family: "Arial";' textLength='17.52px' lengthAdjust='spacingAndGlyphs'>200</text>
+<text x='36.85' y='161.76' text-anchor='end' style='font-size: 10.50px; font-family: "Arial";' textLength='17.52px' lengthAdjust='spacingAndGlyphs'>250</text>
+<text x='36.85' y='114.61' text-anchor='end' style='font-size: 10.50px; font-family: "Arial";' textLength='17.52px' lengthAdjust='spacingAndGlyphs'>300</text>
+<text x='36.85' y='67.45' text-anchor='end' style='font-size: 10.50px; font-family: "Arial";' textLength='17.52px' lengthAdjust='spacingAndGlyphs'>350</text>
+<text x='72.36' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>1961</text>
+<text x='116.05' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>1966</text>
+<text x='159.73' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>1971</text>
+<text x='203.42' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>1976</text>
+<text x='247.10' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>1981</text>
+<text x='290.78' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>1986</text>
+<text x='334.47' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>1991</text>
+<text x='378.15' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>1996</text>
+<text x='421.84' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>2001</text>
+<text x='465.52' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>2006</text>
+<text x='509.21' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='22.58px' lengthAdjust='spacingAndGlyphs'>2011</text>
+<text x='552.89' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>2016</text>
+<text x='596.57' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>2021</text>
+<text x='640.26' y='324.86' text-anchor='middle' style='font-size: 10.50px; font-family: "Arial";' textLength='23.36px' lengthAdjust='spacingAndGlyphs'>2026</text>
+<text transform='translate(14.08,170.03) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='93.10px' lengthAdjust='spacingAndGlyphs'>Index 100 = 1961</text>
+<line x1='297.34' y1='352.15' x2='311.16' y2='352.15' style='stroke-width: 2.67; stroke: #FF0000; stroke-linecap: butt;' />
+<line x1='367.62' y1='352.15' x2='381.44' y2='352.15' style='stroke-width: 2.67; stroke: #0000FF; stroke-linecap: butt;' />
+<text x='318.37' y='356.45' style='font-size: 12.00px; font-family: "Arial";' textLength='42.04px' lengthAdjust='spacingAndGlyphs'>Canada</text>
+<text x='388.65' y='356.45' style='font-size: 12.00px; font-family: "Arial";' textLength='72.05px' lengthAdjust='spacingAndGlyphs'>United States</text>
+<text x='41.79' y='18.37' style='font-size: 18.00px; font-weight: bold; font-family: "Arial";' textLength='573.81px' lengthAdjust='spacingAndGlyphs'>Canadian and U.S. Business Sector Labour Productivity, 1961-2024</text>
+<text x='41.79' y='378.19' style='font-size: 9.00px; font-family: "Arial";' textLength='520.34px' lengthAdjust='spacingAndGlyphs'> Data sources: Statistics Canada, Table 36-10-0208-01 and Table 36-10-0208-01; Bureau of Labor Statistics, Business sector data </text>
+<text x='41.79' y='387.91' style='font-size: 9.00px; font-family: "Arial";' textLength='521.62px' lengthAdjust='spacingAndGlyphs'> are from the data file Labor productivity by major sectors: nonfarm business, business, nonfinancial corporate, and manufacturing, </text>
+<text x='41.79' y='397.63' style='font-size: 9.00px; font-family: "Arial";' textLength='260.29px' lengthAdjust='spacingAndGlyphs'> https://www.bls.gov/productivity/tables; and author's calculations.</text>
+</g>
+</svg>

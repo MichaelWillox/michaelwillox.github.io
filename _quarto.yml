@@ -7,7 +7,7 @@ website:
   navbar:
     right:
       - text: About
-        href: index.qmd
+        href: pages/about.qmd
       - text: Research
         href: pages/research.qmd
       - text: Blog

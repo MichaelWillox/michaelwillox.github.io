@@ -6,29 +6,29 @@ format:
     theme: flatly
 ---
 
+```{=html}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   document.body.style.backgroundColor = '#f0f8ff';
 });
 </script>
+```
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
-![](./images/LinkedInSmall.jpg){ width=200px }
+![](./images/LinkedInSmall.jpg){width="200px"}
 :::
 
 ::: {.column width="60%"}
-
 # Welcome to My Personal Website
 
-This is the homepage for my personal website. Here you can find information about me, my research, projects, and more (soon). 
+This is the homepage for my personal website. Here you can find information about me, my research, projects, and more.
 
 These are my personal views and opinions and do not reflect those of my employer or any affiliated organizations. Nothing on this website contains any confidential information.
 :::
-:::
+:::::
 
 ### What I do:
 
-- **Senior Research Economist** | Statistics Canada; Ottawa, Canada
-- **Doctoral Researcher** | Brunel University of London; Uxbridge, London, UK
-
+-   **Senior Research Economist** \| Statistics Canada; Ottawa, Canada
+-   **Doctoral Researcher** \| Brunel University of London; Uxbridge, London, UK

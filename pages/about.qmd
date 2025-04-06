@@ -1,0 +1,31 @@
+---
+title: "About"
+image: "/images/LinkedInSmall.jpg"
+format:
+  html:
+    theme: flatly
+---
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.style.backgroundColor = '#f0f8ff';
+});
+</script>
+
+
+![](../images/LinkedInSmall.jpg){width="200px" fig-align="center"}
+
+
+::: text-center
+**Michael Willox**  
+Senior Research Economist \| Statistics Canada; Ottawa, Canada\
+Doctoral Researcher \| Brunel University of London; Uxbridge, London, UK
+:::
+
+I am a senior research economist at Statistics Canada, where I cover a wide range of micro- and macroeconomic topics. Areas of research that I focus on are measuring business productivity and efficiency analysis as well as examining policy-related energy, environmental, and climate change issues. I have been conducting causal inference studies for crown corporations, including the Business Development Bank of Canada and Export Development Canada, since 2016.
+
+I occasionally give lectures on quantitative impact analysis as part of a collaboration between Statistics Canada and the Treasury Board of Canada Secretariat for federal public servants. I also have experience producing business performance tools for clients that allow businesses to compare their performance to that of their peers in the same industry and to help governments develop evidence-based economic policies.
+
+I am also a PhD candidate in the Department of Economics and Finance, College of Business, Arts and Social Sciences at Brunel University, London, UK. The focus of my research is on economic and environmental productivity and efficiency measurement.
+
+My work also involves publishing academic studies in peer-reviewed journals for projects most often related to business productivity and efficiency, measuring competitiveness, and environmental performance.

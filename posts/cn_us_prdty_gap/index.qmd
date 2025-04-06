@@ -1,9 +1,11 @@
 ---
 title: "The Canada-U.S. Productivity Growth Gap"
-date: "2025-04-06"
+author: "Michael Willox"
+date: 2025-04-06
 categories: [R, Productivity, Data]
 description: "A comparison of Canadian and U.S. business sector labour productivity growth from 1961 to 2024."
-image: "cn_us_lp_gap_61-24.svg" # Thumbnail for listings and social sharin
+type: post
+image: "cn_us_lp_gap_61-24.svg" # Thumbnail for listings and social sharing
 ---
 
 ![](cn_us_lp_gap_61-24.svg)
@@ -16,6 +18,6 @@ To mark the occasion, I updated a chart from an earlier post comparing Canadian 
 
 The graph is related to a paper I wrote with my colleague, Wulong Gu, called [*The Post-2001 Productivity Growth Divergence between Canada and the United States*](https://csls.ca/ipm/ipm45.asp). In that paper, we argue that the high degree of integration between the Canadian and the U.S. economies promotes sharing of technologies and innovation spillovers that are conducive to long-term labour productivity growth convergence. That what we observe from observed from 1961 to around 2000. However, our findings suggest that those economic forces were muted due to declining competitive intensity in Canada after 2001.
 
-Feel free to connect with me and access the R code to recreate the plot here.
+Feel free to connect with me and access the R code to recreate my graph [here](https://github.com/MichaelWillox/michaelwillox.github.io/tree/main/posts/cn_us_prdty_gap).
 
 *Note: These are my personal views and opinions and do not reflect those of my employer or any affiliated organizations. This article contains no confidential information.*

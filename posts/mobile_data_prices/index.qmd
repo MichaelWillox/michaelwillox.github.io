@@ -1,9 +1,10 @@
 ---
 title: "Why Canadians Pay 60 Times more than Italians for their Mobile Data and the Shifting Frontiers of Global Telecom Competitiveness"
-date: "2025-03-01"
-type: post
+author: "Michael Willox"
+date: 2025-03-01
 categories: [R, Productivity, Competition, Telecoms]
 description: "The 2023 global ranking of mobile data prices shows a clear divide between the most competitive markets—where data costs are consistently low—and countries like Canada."
+type: post
 image: "./bump_chart.svg" # Thumbnail for listings and social sharin
 ---
 

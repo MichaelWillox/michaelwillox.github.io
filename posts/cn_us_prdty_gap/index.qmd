@@ -1,5 +1,6 @@
 ---
 title: "The Canada-U.S. Productivity Growth Gap"
+date: "2025-04-06"
 author: "Michael Willox"
 format: html
 editor: visual

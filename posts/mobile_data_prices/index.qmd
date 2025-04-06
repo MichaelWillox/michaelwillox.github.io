@@ -1,5 +1,6 @@
 ---
 title: "Why Canadians Pay 60 Times more than Italians for their Mobile Data and the Shifting Frontiers of Global Telecom Competitiveness"
+date: "2025-03-01"
 author: "Michael Willox"
 format: html
 editor: visual

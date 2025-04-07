@@ -10,14 +10,14 @@ image: "cn_us_lp_gap_61-24.svg" # Thumbnail for listings and social sharing
 
 ![](cn_us_lp_gap_61-24.svg)
 
-## Multifactor Productivity Growth Estimates and Industry Pproductivity Database
+## Multifactor Productivity Growth Estimates and Industry Productivity Database
 
-Statistics Canada release national estimates for multifactor productivity (MFP) today with data from 1961 to 2023. You can find a write up about the updated Tables [36-10-0208-01](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610020801) and [36-10-0217-01](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610021701) in [The Daily](https://www150.statcan.gc.ca/n1/dai-quo/index-eng.htm?HPA=1).
+Statistics Canada released national estimates for multifactor productivity (MFP) today with data from 1961 to 2023. You can find a write-up about the updated Tables [36-10-0208-01](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610020801) and [36-10-0217-01](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610021701) in [The Daily](https://www150.statcan.gc.ca/n1/dai-quo/index-eng.htm?HPA=1).
 
 To mark the occasion, I updated a chart from an earlier post comparing Canadian and U.S. business sector labour productivity growth.
 
-The graph is related to a paper I wrote with my colleague, Wulong Gu, called [*The Post-2001 Productivity Growth Divergence between Canada and the United States*](https://csls.ca/ipm/ipm45.asp). In that paper, we argue that the high degree of integration between the Canadian and the U.S. economies promotes sharing of technologies and innovation spillovers that are conducive to long-term labour productivity growth convergence. That what we observe from observed from 1961 to around 2000. However, our findings suggest that those economic forces were muted due to declining competitive intensity in Canada after 2001.
+The graph is related to a paper I wrote with my colleague, Wulong Gu, titled [*The Post-2001 Productivity Growth Divergence between Canada and the United States*](https://csls.ca/ipm/ipm45.asp). 
 
-Feel free to connect with me and access the R code to recreate my graph [here](https://github.com/MichaelWillox/michaelwillox.github.io/tree/main/posts/cn_us_prdty_gap).
+You can access the R code to recreate the graph [here](https://github.com/MichaelWillox/michaelwillox.github.io/tree/main/posts/cn_us_prdty_gap). 
 
-*Note: These are my personal views and opinions and do not reflect those of my employer or any affiliated organizations. This article contains no confidential information.*
+*Note: Posts represent my personal views and opinions and do not reflect those of my employer or any affiliated organizations. This article contains no confidential information.*

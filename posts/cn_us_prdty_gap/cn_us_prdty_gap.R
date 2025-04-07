@@ -131,7 +131,7 @@ ggplot(cn_us_data, aes(x = year, y = lp, color = country)) +
  theme(plot.caption = element_text(size = 9, face = "plain", hjust = 0)) + 
  annotate("text", x = 1975, y = 275, label = "1961 - 2000 \n Canada: 2.31% \n US: 2.22%",
           size = 4, hjust = 0.5) +
- annotate("text", x = 2010, y = 175, label = "2000 - 2019 \n Canada: 0.95% \n US: 1.92%",
+ annotate("text", x = 2010, y = 175, label = "2000 - 2019 \n Canada: 0.87% \n US: 1.92%",
           size = 4, hjust = 0.5) +
  annotate("text", x = 2028, y = 325, label = "2019 - 2024 \n Canada: 0.26% \n US: 2.10%",
           size = 4, hjust = 0.5)

@@ -48,10 +48,9 @@ The work described on this page was carried out as part of my role at Statistics
 
 **Results.** In the published event study, labour productivity of BDC clients was about 22% higher than that of matched non-clients one year after receiving support, rising to 32% after two years and 42% after three. Before support, the two groups were statistically indistinguishable, which supports the comparison.
 
-**Published as.** Drabo, M., Kuate, L., & Willox, M. (2026). [Quantitative impact analysis: A practical overview](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026005/article/00003-eng.htm). *Economic and Social Reports*, Statistics Canada. See also the full methods paper, [Applied Quantitative Impact Analysis](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm).
+**Published as.** Drabo, M., Kuate, L., & Willox, M. (2026). [Applied Quantitative Impact Analysis: A Review of Contemporary Methods for Evaluating Programs Serving Businesses](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm). *Analytical Studies: Methods and References*, Statistics Canada Catalogue no. 11-633-X. A shorter summary appears in [Quantitative impact analysis: A practical overview](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026005/article/00003-eng.htm) (*Economic and Social Reports*, 2026).
 
-<!-- CLEARANCE: My role ("lead analyst", "co-developed the methodology", etc.) is not stated
-in public sources. Add one line on what Michael personally did once confirmed. -->
+
 
 ### Evaluating the impact of EDC support on Canadian exporters
 
@@ -60,9 +59,9 @@ in public sources. Add one line on what Michael personally did once confirmed. -
 
 **Question.** Does EDC's financing, insurance and trade support help Canadian firms export more, grow faster and stay in foreign markets longer?
 
-**Approach.** The same linked-data framework used for BDC: EDC client records are linked to firm-level business and trade data, clients are matched to comparable non-clients, and outcomes are tracked over time. <!-- GUESS: inferred from the methods paper, which names EDC alongside BDC as a user of this framework. Outcomes measured (exports, market entry, survival) are also a guess. -->
+**Approach.** The same linked-data framework used for BDC: EDC client records are linked to firm-level business and trade data, clients are matched to comparable non-clients, and outcomes are tracked over time. <!-- GUESS: outcomes measured (exports, market entry, survival) are a guess. -->
 
-**Results.** <!-- CLEARANCE: No EDC-specific results were found in public sources. Either cite a published EDC report, describe the work without numbers, or remove this case. --> Findings informed EDC's reporting on its contribution to Canadian trade.<!-- GUESS -->
+**Published as.** The evaluation framework is documented in Drabo, Kuate & Willox (2026), [Applied Quantitative Impact Analysis](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm), which covers Statistics Canada's impact work for both BDC and EDC. <!-- CLEARANCE: no EDC-specific results are public, so none are quoted. -->
 
 ### A productivity benchmarking tool for small businesses
 

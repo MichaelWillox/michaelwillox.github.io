@@ -144,6 +144,28 @@ publications:
 
 # ===== Statistics Canada reports and research papers =======================
 
+  - id: drabo-kuate-willox-2026-methods
+    type: report
+    authors: ["Drabo, Manassé", "Kuate, Landry", "Willox, Michael"]
+    year: 2026
+    title: "Applied Quantitative Impact Analysis: A Review of Contemporary Methods for Evaluating Programs Serving Businesses"
+    venue: "Analytical Studies: Methods and References"
+    number: "Catalogue no. 11-633-X"   # issue number (likely No. 3, from the URL) not confirmed
+    publisher: "Statistics Canada"
+    url: "https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm"
+
+  - id: drabo-kuate-willox-2026-overview
+    type: report
+    authors: ["Drabo, Manassé", "Kuate, Landry", "Willox, Michael"]
+    year: 2026
+    title: "Quantitative impact analysis: A practical overview"
+    venue: "Economic and Social Reports"
+    volume: 6
+    issue: 5
+    number: "Catalogue no. 36-28-0001"
+    publisher: "Statistics Canada"
+    url: "https://doi.org/10.25318/36280001202600500003-eng"
+
   - id: liu-lu-willox-2021
     type: report
     authors: ["Liu, Huju", "Lu, Y.", "Willox, Michael"]

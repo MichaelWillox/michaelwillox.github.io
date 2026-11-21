@@ -55,13 +55,13 @@ Uses plant-level data on British Columbia manufacturers to show that a 1% higher
 :::
 
 ::: {.g-col-12 .g-col-md-4 .feature-card}
-### Who used the Canada Emergency Wage Subsidy?
+### Measuring the impact of programs that serve businesses
 
-[Liu, Lu & Willox (2021), Statistics Canada, *Economic and Social Reports*]{.venue}
+[Drabo, Kuate & Willox (2026), Statistics Canada, *Analytical Studies: Methods and References*]{.venue}
 
-Examines which employer businesses took up Canada's largest pandemic support program in 2020, and how use varied by firm size and industry.
+Reviews modern impact evaluation methods, with case studies from Statistics Canada's work for BDC and EDC. BDC clients' labour productivity was 22% higher than matched non-clients after one year, and 42% higher after three.
 
-[Read the report →](https://doi.org/10.25318/36280001202100600006-eng)
+[Read the study →](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm)
 :::
 :::
 

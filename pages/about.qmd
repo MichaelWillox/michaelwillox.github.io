@@ -1,17 +1,7 @@
 ---
 title: "About"
 image: "/images/LinkedInSmall.jpg"
-format:
-  html:
-    theme: flatly
 ---
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.body.style.backgroundColor = '#f0f8ff';
-});
-</script>
-
 
 ![](../images/LinkedInSmall.jpg){width="200px" fig-align="center"}
 

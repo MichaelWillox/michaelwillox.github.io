@@ -1,34 +1,81 @@
 ---
-title: "Michael Willox"
+pagetitle: "Michael Willox | Economist"
+description: "Economist specialising in productivity, environmental economics and impact evaluation."
 image: "/images/LinkedInSmall.jpg"
-format:
-  html:
-    theme: flatly
+toc: false
 ---
 
-```{=html}
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.body.style.backgroundColor = '#f0f8ff';
-});
-</script>
-```
-
-::::: columns
-::: {.column width="40%"}
-![](./images/LinkedInSmall.jpg){width="200px"}
+::: {.grid .hero}
+::: {.g-col-12 .g-col-md-3 .text-center}
+![](images/LinkedInSmall.jpg){.headshot fig-alt="Photo of Michael Willox"}
 :::
 
-::: {.column width="60%"}
-# Welcome to My Personal Website
+::: {.g-col-12 .g-col-md-9}
+# Michael Willox
 
-This is the homepage for my personal website. Here you can find information about me, my research, projects, and more.
+[I measure what drives productivity and environmental performance, and test whether public policy works.]{.positioning}
 
-These are my personal views and opinions and do not reflect those of my employer or any affiliated organizations. Nothing on this website contains any confidential information.
+[Senior Research Economist, Statistics Canada · PhD candidate in Economics, Brunel University London]{.roles}
+
+I have more than twenty years of experience across five federal departments and agencies, including Finance Canada and Statistics Canada. I estimate productivity and efficiency from firm- and industry-level data, evaluate the effects of programs and policies, and build data products that businesses and governments use to make decisions.
+
+[Download CV (PDF)](pages/CV.pdf){.btn .btn-primary}
+[Get in touch](#contact){.btn .btn-outline-primary}
+[Google Scholar](https://scholar.google.com/citations?user=ufTAM-AAAAAJ&hl=en){.btn .btn-outline-secondary}
 :::
-:::::
+:::
 
-### What I do:
+## What I work on
 
--   **Senior Research Economist** \| Statistics Canada; Ottawa, Canada
--   **Doctoral Researcher** \| Brunel University of London; Uxbridge, London, UK
+-   **Productivity measurement.** Industry and business-sector productivity, Canada–U.S. comparisons, and benchmarking tools for firms.
+-   **Environmental economics.** How carbon pricing and emissions affect firm efficiency, and environmentally adjusted productivity.
+-   **Impact evaluation.** Causal estimates of program effects for federal departments and Crown corporations, including BDC and Export Development Canada.
+
+## Featured work
+
+::: grid
+::: {.g-col-12 .g-col-md-4 .feature-card}
+### Why Canada's productivity growth fell behind the U.S. after 2001
+
+[Gu & Willox (2023), *International Productivity Monitor* 45]{.venue}
+
+Traces the divergence to the information and cultural industries and shows how limited competition held back productivity there and in the industries that depend on them.
+
+[Read the paper →](http://csls.ca/ipm/45/IPM_45_Gu.pdf)
+:::
+
+::: {.g-col-12 .g-col-md-4 .feature-card}
+### Do carbon taxes affect economic and environmental efficiency?
+
+[Kumbhakar, Badunenko & Willox (2022), *Energy Economics* 115]{.venue}
+
+Uses plant-level data on British Columbia manufacturers to show that a 1% higher carbon tax raised output efficiency by 0.5% and greenhouse gas efficiency by 0.2%.
+
+[Read the paper →](https://doi.org/10.1016/j.eneco.2022.106359)
+:::
+
+::: {.g-col-12 .g-col-md-4 .feature-card}
+### Who used the Canada Emergency Wage Subsidy?
+
+[Liu, Lu & Willox (2021), Statistics Canada, *Economic and Social Reports*]{.venue}
+
+Examines which employer businesses took up Canada's largest pandemic support program in 2020, and how use varied by firm size and industry.
+
+[Read the report →](https://doi.org/10.25318/36280001202100600006-eng)
+:::
+:::
+
+::: more-links
+[See all research](pages/research.qmd) · [Read the blog](pages/blog.qmd)
+:::
+
+## Contact {#contact}
+
+I am open to academic positions and to consulting work on productivity, environmental policy and program evaluation.
+
+-   Email: [Michael.Willox@brunel.ac.uk](mailto:Michael.Willox@brunel.ac.uk)
+-   [LinkedIn](https://www.linkedin.com/in/michael-willox) · [GitHub](https://github.com/MichaelWillox) · [ORCID](https://orcid.org/0000-0003-2738-5994) · [RePEc](https://authors.repec.org/pro/pwi388/)
+
+::: disclaimer
+The views on this site are my own and do not reflect those of my employer or any affiliated organisation. Nothing here contains confidential information.
+:::

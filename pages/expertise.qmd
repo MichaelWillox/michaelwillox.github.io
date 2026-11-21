@@ -10,14 +10,15 @@ format:
 
 <!--
 REVIEW NOTES (do not render; delete before publishing)
-- Every case below describes work done as a Statistics Canada employee. Nothing here
-  claims BDC or EDC as personal clients.
+- Every case below describes work done as a Statistics Canada employee. BDC and EDC are
+  Statistics Canada clients. The page offers research collaboration and subject-matter
+  advice only, not outside consulting services (confirmed by Michael, 2026-11-21).
 - Items marked GUESS were inferred, not taken from published material. Confirm or cut.
 - Items marked CLEARANCE may need sign-off from Statistics Canada (and possibly the
   client) before they go public. See expertise-review-notes.md.
 -->
 
-I help organizations answer two questions with evidence: **did a program or service make a difference**, and **how does a business perform relative to its peers**. For over a decade at Statistics Canada, I have built impact evaluations for Crown corporations and federal departments, developed productivity and efficiency measures, and turned them into tools that decision-makers and business owners can use.
+My work answers two questions with evidence: **did a program or service make a difference**, and **how does a business perform relative to its peers**. For over a decade at Statistics Canada, I have built impact evaluations for Crown corporations and federal departments, developed productivity and efficiency measures, and turned them into tools that decision-makers and business owners can use.
 
 ::: callout-note
 ## Note
@@ -38,7 +39,7 @@ The work described on this page was carried out as part of my role at Statistics
 
 ### Measuring the impact of BDC on its clients
 
-**Client:** Business Development Bank of Canada (BDC), through Statistics Canada\
+**Partner:** Business Development Bank of Canada (BDC), a Statistics Canada client\
 **Period:** 2016 to present
 
 **Question.** Do firms that receive BDC financing or advisory services grow faster, become more productive, or survive longer than similar firms that do not?
@@ -54,7 +55,7 @@ in public sources. Add one line on what Michael personally did once confirmed. -
 
 ### Evaluating the impact of EDC support on Canadian exporters
 
-**Client:** Export Development Canada (EDC), through Statistics Canada\
+**Partner:** Export Development Canada (EDC), a Statistics Canada client\
 **Period:** 2016 to present <!-- GUESS: start year taken from the About page ("since 2016"), which groups BDC and EDC together. Confirm. -->
 
 **Question.** Does EDC's financing, insurance and trade support help Canadian firms export more, grow faster and stay in foreign markets longer?
@@ -65,7 +66,7 @@ in public sources. Add one line on what Michael personally did once confirmed. -
 
 ### A productivity benchmarking tool for small businesses
 
-**Client:** Business Development Bank of Canada (BDC), through Statistics Canada\
+**Partner:** Business Development Bank of Canada (BDC), a Statistics Canada client\
 **Launched:** 2016 <!-- GUESS: launch year from BDC's October 2016 "Productivity Matters" study, which announced the tool. Confirm. -->
 
 **Problem.** Only 6% of Canadian small and medium-sized businesses used formal, comprehensive metrics to compare their productivity with peers ([BDC, 2016](https://bdc.ca/en/about/analysis-research/productivity-2016)). Most owners had no easy way to know where they stood.
@@ -91,13 +92,8 @@ in public sources. Add one line on what Michael personally did once confirmed. -
 | Data | Linking administrative, tax and survey records at the firm level |
 | Software | R, Shiny, SAS, Stata, Python, Git |
 
-## Work with me
+## Collaboration and advice
 
-<!-- CLEARANCE: As a current federal employee, offering outside consulting services may need
-to be declared under the Statistics Canada Values and Ethics Code / conflict-of-interest rules.
-Confirm before publishing this section. Wording below is written to read as "open to
-opportunities" rather than "available for hire now". -->
+I welcome collaboration with academic researchers and external organizations on Statistics Canada research projects in impact evaluation, productivity, efficiency and environmental performance. I am also happy to share advice on questions within my areas of expertise, such as designing an evaluation, choosing a comparison group, or measuring productivity at the firm or industry level.
 
-I am interested in academic positions and consulting roles that involve program evaluation, productivity analysis, or building evidence for business and economic policy. If your organization needs to know whether its programs are working, or wants its clients to benchmark their performance, I would be glad to talk.
-
-[Get in touch on LinkedIn](https://www.linkedin.com/in/michael-willox){.btn .btn-primary} <!-- GUESS: LinkedIn as the contact channel. A personal email may be better than the statcan.gc.ca address for this purpose. -->
+[Get in touch on LinkedIn](https://www.linkedin.com/in/michael-willox){.btn .btn-primary} <!-- GUESS: LinkedIn as the contact channel. Confirm, or swap for another address. -->

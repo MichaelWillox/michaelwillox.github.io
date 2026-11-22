@@ -66,11 +66,11 @@ The work described on this page was carried out as part of my role at Statistics
 ### A productivity benchmarking tool for small businesses
 
 **Partner:** Business Development Bank of Canada (BDC), a Statistics Canada client\
-**Launched:** 2016 <!-- GUESS: launch year from BDC's October 2016 "Productivity Matters" study, which announced the tool. Confirm. -->
+**Period:** 2016 to 2024 <!-- GUESS: launch year from BDC's October 2016 "Productivity Matters" study, which announced the tool. Confirm. -->
 
 **Problem.** Only 6% of Canadian small and medium-sized businesses used formal, comprehensive metrics to compare their productivity with peers ([BDC, 2016](https://bdc.ca/en/about/analysis-research/productivity-2016)). Most owners had no easy way to know where they stood.
 
-**What I built.** The first online small business productivity benchmarking tool in Canada. A business owner enters a few figures and sees how their labour productivity compares with firms in the same industry, drawing on confidential Statistics Canada data released in aggregate form. I built and continue to maintain it. <!-- GUESS: description of inputs and outputs. Check against the live tool at bdc.ca/productivity. -->
+**What I built.** The first online small business productivity benchmarking tool in Canada. A business owner enters a few figures and sees how their labour productivity compares with firms in the same industry, drawing on confidential Statistics Canada data released in aggregate form. I built the tool and maintained it until 2024. <!-- GUESS: description of inputs and outputs. Check against the live tool at bdc.ca/productivity. -->
 
 **Recognition.** Statistics Canada Award of Excellence for Excellence in Project Delivery (2017).
 

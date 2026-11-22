@@ -16,12 +16,12 @@ website:
         href: pages/CV.qmd
   search: true  # Enable site-wide search
   page-footer:
-    left: "© 2025 Michael Willox"
+    left: "© Michael Willox"
     right: "Built with [Quarto](https://quarto.org/)"
 
 format:
   html:
-    theme: flatly  # You can change this to another theme if desired
+    theme: [flatly, custom.scss]  # Colours and fonts live in custom.scss
     toc: true     # Enable table of contents on all pages
     toc-depth: 2  # Adjust depth of the table of contents
     number-sections: false

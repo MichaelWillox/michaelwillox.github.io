@@ -1,7 +1,14 @@
 ---
+pagetitle: "CV | Michael Willox"
 format:
-  html:
-    theme: flatly
+  html: default
+  typst:
+    papersize: us-letter
+    margin:
+      x: 2cm
+      y: 2cm
+    fontsize: 10pt
+format-links: false
 ---
 
 ::: {style="text-align: center;"}

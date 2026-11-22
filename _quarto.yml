@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs  # Outputs rendered site to the 'docs' folder for GitHub Pages
+  output-dir: _site  # Rendered site; built and deployed by GitHub Actions, not committed
 
 website:
   title: "Michael Willox"
@@ -8,6 +8,8 @@ website:
     right:
       - text: About
         href: pages/about.qmd
+      - text: Expertise
+        href: pages/expertise.qmd
       - text: Research
         href: pages/research.qmd
       - text: Blog
@@ -16,12 +18,12 @@ website:
         href: pages/CV.qmd
   search: true  # Enable site-wide search
   page-footer:
-    left: "© 2025 Michael Willox"
+    left: "© Michael Willox"
     right: "Built with [Quarto](https://quarto.org/)"
 
 format:
   html:
-    theme: flatly  # You can change this to another theme if desired
+    theme: [flatly, custom.scss]  # Colours and fonts live in custom.scss
     toc: true     # Enable table of contents on all pages
     toc-depth: 2  # Adjust depth of the table of contents
     number-sections: false

@@ -153,6 +153,10 @@ publications:
     number: "No. 063, Catalogue no. 11-633-X"   # number from Michael's 2026 BoC resume
     publisher: "Statistics Canada"
     url: "https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm"
+    abstract: >-
+      Reviews modern methods for measuring the impact of programs that serve
+      businesses, drawing on Statistics Canada's impact analyses for the
+      Business Development Bank of Canada and Export Development Canada.
 
   - id: drabo-kuate-willox-2026-overview
     type: report

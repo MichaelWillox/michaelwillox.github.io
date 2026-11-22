@@ -2,6 +2,7 @@
 metadata-files:
   - ../data/publications.yml
 title: "Michael Willox"
+pagetitle: "CV | Michael Willox"
 format:
   html: default
   typst:
@@ -9,7 +10,7 @@ format:
     margin:
       x: 2cm
       y: 2cm
-    fontsize: 10.5pt
+    fontsize: 10pt
     toc: false
 format-links: false
 ---

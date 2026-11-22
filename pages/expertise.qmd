@@ -1,0 +1,99 @@
+---
+title: "Expertise"
+description: "Impact evaluation, productivity measurement and business performance benchmarking."
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+My work answers two questions with evidence: **did a program or service make a difference**, and **how does a business perform relative to its peers**. For over a decade at Statistics Canada, I have built impact evaluations for Crown corporations and federal departments, developed productivity and efficiency measures, and turned them into tools that decision-makers and business owners can use.
+
+::: callout-note
+## Note
+The work described on this page was carried out as part of my role at Statistics Canada. Results cited are drawn from published reports. Views expressed here are my own.
+:::
+
+## What I do
+
+**Impact evaluation of business programs.** Quasi-experimental designs (matching, difference-in-differences, event studies and survival analysis) that estimate the effect of financing, advisory and support programs on firm revenue, employment, productivity and survival.
+
+**Productivity and efficiency measurement.** Labour and multifactor productivity, industry decompositions, stochastic frontier analysis, and environmentally adjusted productivity that accounts for emissions alongside output.
+
+**Benchmarking and decision tools.** Peer-comparison tools that let businesses see how their productivity stacks up against firms in the same industry, size class and region.
+
+**Training and methods advice.** Lectures on quantitative impact analysis for federal public servants, delivered with the Treasury Board of Canada Secretariat.
+
+## Selected work
+
+### Measuring the impact of BDC on its clients
+
+**Partner:** Business Development Bank of Canada (BDC), a Statistics Canada client\
+**Period:** 2016 to present
+
+**Question.** Do firms that receive BDC financing or advisory services grow faster, become more productive, or survive longer than similar firms that do not?
+
+**Approach.** BDC client records are linked to Statistics Canada's Business Register and to tax-based firm data in the Canadian Employer-Employee Dynamics Database. Each client is matched with comparable non-clients on age, size, financial position, industry and region. Outcomes are then compared over time using difference-in-differences and event-study models, with survival analysis for firm exit.
+
+**My role.** I carried out earlier versions of this evaluation for BDC. The latest analysis, reported in our 2026 paper, was performed by my colleague Manassé Drabo using the same framework.
+
+**Results.** In the latest published event study, labour productivity of BDC clients was about 22% higher than that of matched non-clients one year after receiving support, rising to 32% after two years and 42% after three. Before support, the two groups were statistically indistinguishable, which supports the comparison.
+
+**Published as.** Drabo, M., Kuate, L., & Willox, M. (2026). [Applied Quantitative Impact Analysis: A Review of Contemporary Methods for Evaluating Programs Serving Businesses](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm). *Analytical Studies: Methods and References*, Statistics Canada Catalogue no. 11-633-X. A shorter summary appears in [Quantitative impact analysis: A practical overview](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026005/article/00003-eng.htm) (*Economic and Social Reports*, 2026).
+
+### Evaluating the impact of EDC support on Canadian exporters
+
+**Partner:** Export Development Canada (EDC), a Statistics Canada client\
+**Period:** 2023 to present
+
+**Question.** Does EDC's financing, insurance and trade support help Canadian firms export more, grow faster and stay in foreign markets longer?
+
+**Approach.** The same linked-data framework used for BDC: EDC client records are linked to firm-level business and trade data, clients are matched to comparable non-clients, and outcomes are tracked over time.
+
+**Published as.** The evaluation framework is documented in Drabo, Kuate & Willox (2026), [Applied Quantitative Impact Analysis](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm), which covers Statistics Canada's impact work for both BDC and EDC.
+
+### A productivity benchmarking tool for small businesses
+
+**Partner:** Business Development Bank of Canada (BDC), a Statistics Canada client\
+**Period:** 2016 to 2024
+
+**Problem.** Only 6% of Canadian small and medium-sized businesses used formal, comprehensive metrics to compare their productivity with peers ([BDC, 2016](https://bdc.ca/en/about/analysis-research/productivity-2016)). Most owners had no easy way to know where they stood.
+
+**What I built.** The first online small business productivity benchmarking tool in Canada. A business owner enters a few figures and sees how their labour productivity compares with firms in the same industry, drawing on Statistics Canada's National Accounts Longitudinal Microdata File, released in aggregate form. I built the tool and maintained it until 2024.
+
+**Reach.** The tool served more than 10,000 businesses, and in its first year the Government of New Brunswick made it mandatory for 3,000 firms.
+**Recognition.** Statistics Canada Award of Excellence for Excellence in Project Delivery (2017).
+
+### Other applied work
+
+- **COVID-19 PPE supply and demand.** Modelled demand for and supply of personal protective equipment by sector and region during the pandemic. Statistics Canada Outstanding Contribution Award (2020).
+- **Business openings and closures.** Co-developed monthly experimental estimates of business openings and closures for Canada, the provinces and territories, and major cities ([Economic Insights, 2020](https://www150.statcan.gc.ca/n1/pub/11-626-x/11-626-x2020014-eng.htm)).
+- **Carbon taxes and efficiency.** Estimated the effect of British Columbia's carbon tax on the economic and environmental efficiency of manufacturing plants ([Energy Economics, 2022](https://doi.org/10.1016/j.eneco.2022.106359)).
+- **Canada-U.S. productivity.** Industry decompositions of the post-2001 productivity divergence between Canada and the United States. Gu, W., & Willox, M. (2023), [The Post-2001 Productivity Growth Divergence between Canada and the United States](http://csls.ca/ipm/45/IPM_45_Gu.pdf), *International Productivity Monitor*, 45 (peer reviewed).
+
+## Current research
+
+- **Canada's long-term productivity growth.** A growth-accounting study of Canadian productivity from 1961 to 2023, pointing to weak ICT capital investment and declining multifactor productivity as key constraints on long-run growth (with Wulong Gu; Statistics Canada working paper, expected January 2027).
+- **Scaling up medium-sized firms.** Links Statistics Canada's patent and financial microdata to test whether patenting raises a medium-sized firm's chance of growing into a large firm (with Abbes, Johnston, Lafrance-Cooke and Santilli; Statistics Canada working paper, expected January 2027).
+- **Papers from my PhD thesis** (Brunel University London, successfully defended October 2026). Three papers in preparation, on environmentally adjusted productivity in Canadian manufacturing industries, industrial robot adoption and emissions intensity, and clean technology investment and firm financial performance.
+
+## Methods and tools
+
+| Area | Methods |
+|------------------------|------------------------------------------------|
+| Causal inference | Propensity score and kernel matching, difference-in-differences (including staggered designs), event studies, survival analysis |
+| Productivity | Labour and multifactor productivity, growth accounting, industry decompositions, markups |
+| Efficiency | Stochastic frontier analysis, by-production models for desirable and undesirable outputs |
+| Data | Linking administrative, tax and survey records at the firm level |
+| Software | R, Shiny, SAS, Stata, Python, Git |
+
+## Collaboration and advice
+
+I am open to academic positions and consulting roles in program evaluation, productivity analysis and evidence for business and economic policy.
+
+I also welcome collaboration with academic researchers and external organizations on Statistics Canada research projects in impact evaluation, productivity, efficiency and environmental performance. I am also happy to share advice on questions within my areas of expertise, such as designing an evaluation, choosing a comparison group, or measuring productivity at the firm or industry level.
+
+**Contact**\
+Email: [michael.willox@gmail.com](mailto:michael.willox@gmail.com)\
+Brunel University London: [michael.willox@brunel.ac.uk](mailto:michael.willox@brunel.ac.uk)\
+[LinkedIn](https://www.linkedin.com/in/michael-willox)

@@ -11,8 +11,9 @@ format:
 <!--
 REVIEW NOTES (do not render; delete before publishing)
 - Every case below describes work done as a Statistics Canada employee. BDC and EDC are
-  Statistics Canada clients. The page offers research collaboration and subject-matter
-  advice only, not outside consulting services (confirmed by Michael, 2026-11-21).
+  Statistics Canada clients. The page says Michael is open to academic positions and
+  consulting roles (OK per Michael, 2026-11-22) but does not offer consulting services
+  while at Statistics Canada. Remove the statcan.gc.ca address when he leaves (Jan 2027).
 - Items marked GUESS were inferred, not taken from published material. Confirm or cut.
 - Items marked CLEARANCE may need sign-off from Statistics Canada (and possibly the
   client) before they go public. See expertise-review-notes.md.
@@ -93,9 +94,12 @@ The work described on this page was carried out as part of my role at Statistics
 
 ## Collaboration and advice
 
-I welcome collaboration with academic researchers and external organizations on Statistics Canada research projects in impact evaluation, productivity, efficiency and environmental performance. I am also happy to share advice on questions within my areas of expertise, such as designing an evaluation, choosing a comparison group, or measuring productivity at the firm or industry level.
+I am open to academic positions and consulting roles in program evaluation, productivity analysis and evidence for business and economic policy.
+
+I also welcome collaboration with academic researchers and external organizations on Statistics Canada research projects in impact evaluation, productivity, efficiency and environmental performance. I am also happy to share advice on questions within my areas of expertise, such as designing an evaluation, choosing a comparison group, or measuring productivity at the firm or industry level.
 
 **Contact**\
+Email: [michael.willox@gmail.com](mailto:michael.willox@gmail.com)\
 Statistics Canada: [michael.willox@statcan.gc.ca](mailto:michael.willox@statcan.gc.ca)\
 Brunel University London: [michael.willox@brunel.ac.uk](mailto:michael.willox@brunel.ac.uk)\
 [LinkedIn](https://www.linkedin.com/in/michael-willox)

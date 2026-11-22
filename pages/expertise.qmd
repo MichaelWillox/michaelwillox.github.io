@@ -75,7 +75,7 @@ The work described on this page was carried out as part of my role at Statistics
 
 - **Canada's long-term productivity growth.** A growth-accounting study of Canadian productivity from 1961 to 2023, pointing to weak ICT capital investment and declining multifactor productivity as key constraints on long-run growth (with Wulong Gu; Statistics Canada working paper, expected January 2027).
 - **Scaling up medium-sized firms.** Links Statistics Canada's patent and financial microdata to test whether patenting raises a medium-sized firm's chance of growing into a large firm (with Abbes, Johnston, Lafrance-Cooke and Santilli; Statistics Canada working paper, expected January 2027).
-- **Doctoral research at Brunel University London.** Three thesis papers on environmentally adjusted productivity in Canadian manufacturing industries, industrial robot adoption and emissions intensity, and clean technology investment and firm financial performance.
+- **Papers from my PhD thesis** (Brunel University London, successfully defended October 2026). Three papers in preparation, on environmentally adjusted productivity in Canadian manufacturing industries, industrial robot adoption and emissions intensity, and clean technology investment and firm financial performance.
 
 ## Methods and tools
 

@@ -58,18 +58,18 @@ The work described on this page was carried out as part of my role at Statistics
 ### Evaluating the impact of EDC support on Canadian exporters
 
 **Partner:** Export Development Canada (EDC), a Statistics Canada client\
-**Period:** 2016 to present <!-- GUESS: start year taken from the About page ("since 2016"), which groups BDC and EDC together. Confirm. -->
+**Period:** 2023 to present
 
 **Question.** Does EDC's financing, insurance and trade support help Canadian firms export more, grow faster and stay in foreign markets longer?
 
-**Approach.** The same linked-data framework used for BDC: EDC client records are linked to firm-level business and trade data, clients are matched to comparable non-clients, and outcomes are tracked over time. <!-- GUESS: outcomes measured (exports, market entry, survival) are a guess. -->
+**Approach.** The same linked-data framework used for BDC: EDC client records are linked to firm-level business and trade data, clients are matched to comparable non-clients, and outcomes are tracked over time.
 
-**Published as.** The evaluation framework is documented in Drabo, Kuate & Willox (2026), [Applied Quantitative Impact Analysis](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm), which covers Statistics Canada's impact work for both BDC and EDC. <!-- No EDC results are quoted, by design (confirmed by Michael, 2026-11-22). -->
+**Published as.** The evaluation framework is documented in Drabo, Kuate & Willox (2026), [Applied Quantitative Impact Analysis](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm), which covers Statistics Canada's impact work for both BDC and EDC.
 
 ### A productivity benchmarking tool for small businesses
 
 **Partner:** Business Development Bank of Canada (BDC), a Statistics Canada client\
-**Period:** 2016 to 2024 <!-- GUESS: launch year from BDC's October 2016 "Productivity Matters" study, which announced the tool. Confirm. -->
+**Period:** 2016 to 2024
 
 **Problem.** Only 6% of Canadian small and medium-sized businesses used formal, comprehensive metrics to compare their productivity with peers ([BDC, 2016](https://bdc.ca/en/about/analysis-research/productivity-2016)). Most owners had no easy way to know where they stood.
 

@@ -2,7 +2,7 @@
 title: "Why Canadians Pay 60 Times more than Italians for their Mobile Data and the Shifting Frontiers of Global Telecom Competitiveness"
 author: "Michael Willox"
 date: 2025-03-01
-categories: [R, Productivity, Competition, Telecoms]
+categories: [Productivity, Competition]
 description: "The 2023 global ranking of mobile data prices shows a clear divide between the most competitive markets—where data costs are consistently low—and countries like Canada."
 type: post
 image: "./bump_chart.svg" # Thumbnail for listings and social sharin
@@ -58,4 +58,4 @@ That said, no one should believe that Europe has all the answers. Mario Draghi's
 
 Canada’s high telecom prices are not inevitable. While infrastructure and investment costs play a role, they do not fully explain why Canadians continue to pay more for mobile data than people in countries with similar challenges. The fact that Australia, Finland, and several European nations have dramatically lower prices suggests that Canada’s telecom sector is suffering from a lack of effective competition.
 
-*Note: These are my personal views and opinions and do not reflect those of my employer or any affiliated organizations. This article contains no confidential information. The data are free and publicly available from Cable.co.uk.*
+*The data are free and publicly available from Cable.co.uk.*

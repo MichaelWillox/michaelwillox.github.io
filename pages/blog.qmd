@@ -1,13 +1,18 @@
 ---
 title: "Blog"
-description: "Michael Willox's blog"
+subtitle: "Notes on productivity, impact evaluation and the tools I build for economic research."
 listing:
-  contents: ../posts/*/index.qmd  # Use a wildcard to match index.qmd in each subdirectory
+  contents: ../posts/*/index.qmd
   sort: "date desc"
   type: default
-  fields: [title, date, description, image]
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  date-format: "MMMM D, YYYY"
+  image-height: 140px
+  fields: [image, date, title, description, categories, reading-time]
+  feed: true
+page-layout: full
+title-block-banner: false
+toc: false
 ---
-
-Short pieces on productivity, competition and working with economic data in R.
-
-

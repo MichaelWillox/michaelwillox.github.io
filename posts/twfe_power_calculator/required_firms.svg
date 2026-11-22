@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Source Sans 3, Segoe UI, sans-serif" font-size="13">
+<rect width="760" height="420" fill="#ffffff"/>
+<text x="78" y="24" font-size="16" font-weight="600" fill="#1f3a5f">Firms needed to detect an effect, by size of effect</text>
+<line x1="78" x2="736" y1="362.0" y2="362.0" stroke="#e3e8ee"/>
+<text x="70" y="366.0" text-anchor="end" fill="#5b6b7d">300</text>
+<line x1="78" x2="736" y1="296.5" y2="296.5" stroke="#e3e8ee"/>
+<text x="70" y="300.5" text-anchor="end" fill="#5b6b7d">1,000</text>
+<line x1="78" x2="736" y1="236.7" y2="236.7" stroke="#e3e8ee"/>
+<text x="70" y="240.7" text-anchor="end" fill="#5b6b7d">3,000</text>
+<line x1="78" x2="736" y1="171.3" y2="171.3" stroke="#e3e8ee"/>
+<text x="70" y="175.3" text-anchor="end" fill="#5b6b7d">10,000</text>
+<line x1="78" x2="736" y1="111.5" y2="111.5" stroke="#e3e8ee"/>
+<text x="70" y="115.5" text-anchor="end" fill="#5b6b7d">30,000</text>
+<line x1="78" x2="736" y1="46.0" y2="46.0" stroke="#e3e8ee"/>
+<text x="70" y="50.0" text-anchor="end" fill="#5b6b7d">100,000</text>
+<text x="78.0" y="382" text-anchor="middle" fill="#5b6b7d">1%</text>
+<text x="151.1" y="382" text-anchor="middle" fill="#5b6b7d">2%</text>
+<text x="224.2" y="382" text-anchor="middle" fill="#5b6b7d">3%</text>
+<text x="297.3" y="382" text-anchor="middle" fill="#5b6b7d">4%</text>
+<text x="370.4" y="382" text-anchor="middle" fill="#5b6b7d">5%</text>
+<text x="443.6" y="382" text-anchor="middle" fill="#5b6b7d">6%</text>
+<text x="516.7" y="382" text-anchor="middle" fill="#5b6b7d">7%</text>
+<text x="589.8" y="382" text-anchor="middle" fill="#5b6b7d">8%</text>
+<text x="662.9" y="382" text-anchor="middle" fill="#5b6b7d">9%</text>
+<text x="736.0" y="382" text-anchor="middle" fill="#5b6b7d">10%</text>
+<text x="407.0" y="406" text-anchor="middle" fill="#5b6b7d">Minimum detectable effect on output (log points, roughly %)</text>
+<line x1="78" x2="736" y1="205.2" y2="205.2" stroke="#2a7f62" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="732" y="198.2" text-anchor="end" fill="#2a7f62" font-weight="600">Expected linked panel: 5,362 firms</text>
+<path d="M78.0,82.7 L92.6,102.6 L107.2,119.3 L121.9,133.8 L136.5,146.6 L151.1,158.1 L165.7,168.4 L180.4,177.9 L195.0,186.5 L209.6,194.6 L224.2,202.0 L238.8,209.0 L253.5,215.6 L268.1,221.8 L282.7,227.6 L297.3,233.2 L312.0,238.4 L326.6,243.4 L341.2,248.2 L355.8,252.8 L370.4,257.2 L385.1,261.4 L399.7,265.4 L414.3,269.3 L428.9,273.1 L443.6,276.7 L458.2,280.2 L472.8,283.6 L487.4,286.9 L502.0,290.1 L516.7,293.1 L531.3,296.1 L545.9,299.0 L560.5,301.9 L575.2,304.6 L589.8,307.3 L604.4,309.9 L619.0,312.4 L633.6,314.9 L648.3,317.3 L662.9,319.6 L677.5,321.9 L692.1,324.2 L706.8,326.3 L721.4,328.5 L736.0,330.6" fill="none" stroke="#5b6b7d" stroke-width="2" stroke-dasharray="2 3"/>
+<path d="M78.0,67.2 L92.6,87.0 L107.2,103.8 L121.9,118.3 L136.5,131.1 L151.1,142.5 L165.7,152.9 L180.4,162.3 L195.0,171.0 L209.6,179.1 L224.2,186.5 L238.8,193.5 L253.5,200.1 L268.1,206.3 L282.7,212.1 L297.3,217.7 L312.0,223.0 L326.6,228.0 L341.2,232.8 L355.8,237.4 L370.4,241.8 L385.1,246.0 L399.7,250.1 L414.3,254.0 L428.9,257.8 L443.6,261.4 L458.2,264.9 L472.8,268.3 L487.4,271.6 L502.0,274.8 L516.7,277.9 L531.3,280.9 L545.9,283.8 L560.5,286.7 L575.2,289.4 L589.8,292.1 L604.4,294.7 L619.0,297.3 L633.6,299.8 L648.3,302.2 L662.9,304.6 L677.5,306.9 L692.1,309.2 L706.8,311.4 L721.4,313.6 L736.0,315.7" fill="none" stroke="#1f3a5f" stroke-width="2.5"/>
+<circle cx="151.1" cy="142.5" r="4.5" fill="#1f3a5f"/>
+<text x="160.1" y="136.5" fill="#1f3a5f">2% effect: 16,956 firms</text>
+<line x1="458.1777777777778" x2="484.1777777777778" y1="95.8434746321472" y2="95.8434746321472" stroke="#1f3a5f" stroke-width="2.5"/><text x="490.1777777777778" y="99.8434746321472" fill="#22303e">Serial correlation of 0.3</text>
+<line x1="458.1777777777778" x2="484.1777777777778" y1="115.8434746321472" y2="115.8434746321472" stroke="#5b6b7d" stroke-width="2" stroke-dasharray="2 3"/><text x="490.1777777777778" y="119.8434746321472" fill="#22303e">No serial correlation</text>
+</svg>

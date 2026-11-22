@@ -1,4 +1,18 @@
-_site/
-
+# Quarto build output and caches (the site is built by GitHub Actions)
+/_site/
+/docs/
 /.quarto/
-.Rproj.user
+*_files/
+*_cache/
+/_freeze/
+
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

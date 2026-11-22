@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs  # Outputs rendered site to the 'docs' folder for GitHub Pages
+  output-dir: _site  # Rendered site; built and deployed by GitHub Actions, not committed
 
 website:
   title: "Michael Willox"

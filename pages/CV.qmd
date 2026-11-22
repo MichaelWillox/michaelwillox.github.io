@@ -1,4 +1,7 @@
 ---
+metadata-files:
+  - ../data/publications.yml
+title: "Michael Willox"
 pagetitle: "CV | Michael Willox"
 format:
   html: default
@@ -8,20 +11,21 @@ format:
       x: 2cm
       y: 2cm
     fontsize: 10pt
+    toc: false
 format-links: false
 ---
 
-::: {style="text-align: center;"}
-# Michael Willox
+::: {.content-visible when-format="html"}
+[Download CV (PDF)](CV.pdf){.btn .btn-primary .btn-sm}
+:::
 
 **Senior Research Economist \| Statistics Canada, Ottawa, Canada**\
-[Michael.Willox@statcan.gc.ca](mailto:Michael.Willox@statcan.gc.ca)\
+[Michael.Willox@statcan.gc.ca](mailto:Michael.Willox@statcan.gc.ca)
 
-**Doctoral Researcher \| Brunel University, London, UK**\
-[Michael.Willox@brunel.ac.uk](mailto:Michael.Willox\@brunel.ac.uk)\
+**PhD in Economics and Finance \| Brunel University London, UK (2026)**\
+[Michael.Willox@brunel.ac.uk](mailto:Michael.Willox@brunel.ac.uk)
 
-[LinkedIn](https://www.linkedin.com/in/michael-willox) \| [GitHub](https://github.com/MichaelWillox) \| [Google Scholar](https://scholar.google.com/citations?user=ufTAM-AAAAAJ&hl=en) \| [ORCID](https://orcid.org/my-orcid?orcid=0000-0003-2738-5994) \| [RePEc](https://authors.repec.org/pro/pwi388/)
-:::
+[LinkedIn](https://www.linkedin.com/in/michael-willox) \| [GitHub](https://github.com/MichaelWillox) \| [Google Scholar](https://scholar.google.com/citations?user=ufTAM-AAAAAJ&hl=en) \| [ORCID](https://orcid.org/0000-0003-2738-5994) \| [RePEc](https://authors.repec.org/pro/pwi388/)
 
 ------------------------------------------------------------------------
 
@@ -39,7 +43,7 @@ format-links: false
 
 -   Manages projects with multidisciplinary teams on a variety of projects such as building and maintaining a world-class economic and environmental database.
 
--   Built and maintains an online productivity benchmarking tool for Canadian businesses.
+-   Built an online productivity benchmarking tool for Canadian businesses, drawing on Statistics Canada's National Accounts Longitudinal Microdata File. It served more than 10,000 businesses, was made mandatory for 3,000 firms by the Government of New Brunswick in its first year, and was maintained until 2024.
 
 -   Developed data series for the Canadian System of National Accounts to support policy development.
 
@@ -87,7 +91,7 @@ format-links: false
 
 ## Education
 
--   **PhD candidate in Economics and Finance**, Brunel University London, London, UK (Oct 2023 – Present)
+-   **PhD in Economics and Finance**, Brunel University London, London, UK (Oct 2023 – Oct 2026); thesis successfully defended October 7, 2026, graduation expected July 2027
 
 -   **Canadian Securities Course**, Canadian Securities Institute, Ottawa, Canada (Oct 2004)
 
@@ -105,19 +109,11 @@ format-links: false
 
 ## Publications
 
-Gu, W., & Willox, M. (2023). The Post-2001 Productivity Growth Divergence between Canada and the United States. *International Productivity Monitor*, *45*, 27-60. [Link](http://csls.ca/ipm/45/IPM_45_Gu.pdf).
+{{< publications level=3 abstracts=false >}}
 
-Kumbhakar, S. C., Badunenko, O., & Willox, M. (2022). Do carbon taxes affect economic and environmental efficiency? The case of British Columbia’s manufacturing plants. *Energy Economics*, *115*, 106359. [Link](https://doi.org/10.1016/j.eneco.2022.106359).
+## Professional Service
 
-Liu, Huju, Lu, Y., & Willox, M. (2021). "Use of the Canada Emergency Wage Subsidy program by employer businesses in 2020." Ottawa: Statistics Canada, Economic and Social Reports, Catalogue Number 36-28-0001. [Link](https://doi.org/10.25318/36280001202100600006-eng).
-
-Lafrance-Cooke , A. , Macdonald, R., & Willox, M. (2020). "Monthly Business Openings and Closures: Experimental Series for Canada, the Provinces and Territories, and Census Metropolitan Areas.” Economic Insights, No. 116. Statistics Canada Cat. No. 11-626-X. [Link](https://www150.statcan.gc.ca/n1/pub/11-626-x/11-626-x2020014-eng.htm).
-
-Gu, W., Hussain, J., & Willox, M. (2019). *Environmentally adjusted multifactor productivity growth for the Canadian manufacturing sector*. Statistics Canada. [Link](https://www150.statcan.gc.ca/n1/pub/11f0019m/11f0019m2019013-eng.htm).
-
-Gu, W., & Willox, M. (2018). Productivity Growth in Canada and the United States: Recent Industry Trends and Potential Explanations. *International Productivity Monitor*, *35*, 73-94. [Link](https://www.csls.ca/ipm/35/Gu-Willox.pdf).
-
-Baldwin, J. R., & Willox, M. (2016). The industry origins of Canada's weaker labour productivity performance and the role of structural adjustment in the post-2000 period. *International Productivity Monitor, (31), 19-37.* [Link](https://www.csls.ca/ipm/31/baldwin.pdf).
+-   Peer reviewer, *Empirical Economics*
 
 ## Awards
 

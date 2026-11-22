@@ -3,21 +3,9 @@ title: "Expertise"
 description: "Impact evaluation, productivity measurement and business performance benchmarking."
 format:
   html:
-    theme: flatly
     toc: true
     toc-depth: 2
 ---
-
-<!--
-REVIEW NOTES (do not render; delete before publishing)
-- Every case below describes work done as a Statistics Canada employee. BDC and EDC are
-  Statistics Canada clients. The page says Michael is open to academic positions and
-  consulting roles (OK per Michael, 2026-11-22) but does not offer consulting services
-  while at Statistics Canada. Remove the statcan.gc.ca address when he leaves (Jan 2027).
-- Items marked GUESS were inferred, not taken from published material. Confirm or cut.
-- Items marked CLEARANCE may need sign-off from Statistics Canada (and possibly the
-  client) before they go public. See expertise-review-notes.md.
--->
 
 My work answers two questions with evidence: **did a program or service make a difference**, and **how does a business perform relative to its peers**. For over a decade at Statistics Canada, I have built impact evaluations for Crown corporations and federal departments, developed productivity and efficiency measures, and turned them into tools that decision-makers and business owners can use.
 
@@ -53,8 +41,6 @@ The work described on this page was carried out as part of my role at Statistics
 
 **Published as.** Drabo, M., Kuate, L., & Willox, M. (2026). [Applied Quantitative Impact Analysis: A Review of Contemporary Methods for Evaluating Programs Serving Businesses](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm). *Analytical Studies: Methods and References*, Statistics Canada Catalogue no. 11-633-X. A shorter summary appears in [Quantitative impact analysis: A practical overview](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026005/article/00003-eng.htm) (*Economic and Social Reports*, 2026).
 
-
-
 ### Evaluating the impact of EDC support on Canadian exporters
 
 **Partner:** Export Development Canada (EDC), a Statistics Canada client\
@@ -73,8 +59,7 @@ The work described on this page was carried out as part of my role at Statistics
 
 **Problem.** Only 6% of Canadian small and medium-sized businesses used formal, comprehensive metrics to compare their productivity with peers ([BDC, 2016](https://bdc.ca/en/about/analysis-research/productivity-2016)). Most owners had no easy way to know where they stood.
 
-**What I built.** The first online small business productivity benchmarking tool in Canada. A business owner enters a few figures and sees how their labour productivity compares with firms in the same industry, drawing on confidential Statistics Canada data released in aggregate form. I built the tool and maintained it until 2024. <!-- GUESS: description of inputs and outputs. Check against the live tool at bdc.ca/productivity. -->
-
+**What I built.** The first online small business productivity benchmarking tool in Canada. A business owner enters a few figures and sees how their labour productivity compares with firms in the same industry, drawing on confidential Statistics Canada data released in aggregate form. I built the tool and maintained it until 2024. 
 **Recognition.** Statistics Canada Award of Excellence for Excellence in Project Delivery (2017).
 
 ### Other applied work
@@ -102,6 +87,5 @@ I also welcome collaboration with academic researchers and external organization
 
 **Contact**\
 Email: [michael.willox@gmail.com](mailto:michael.willox@gmail.com)\
-Statistics Canada: [michael.willox@statcan.gc.ca](mailto:michael.willox@statcan.gc.ca)\
 Brunel University London: [michael.willox@brunel.ac.uk](mailto:michael.willox@brunel.ac.uk)\
 [LinkedIn](https://www.linkedin.com/in/michael-willox)

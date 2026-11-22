@@ -11,9 +11,9 @@
 
 local sections = {
   { key = "journal", title = "Peer-Reviewed Journal Articles" },
-  { key = "report",  title = "Reports and Research Papers" },
-  { key = "working", title = "Working Papers" },
-  { key = "phd",     title = "PhD Research" },
+  { key = "report",  title = "Working Papers and Reports, Statistics Canada" },
+  { key = "working", title = "Work in Progress" },
+  { key = "phd",     title = "PhD Thesis Papers, Brunel University London" },
 }
 
 local str = pandoc.utils.stringify

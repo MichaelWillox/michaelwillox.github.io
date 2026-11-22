@@ -42,7 +42,7 @@ format-links: false
 
 -   Manages projects with multidisciplinary teams on a variety of projects such as building and maintaining a world-class economic and environmental database.
 
--   Built an online productivity benchmarking tool for Canadian businesses and maintained it until 2024.
+-   Built an online productivity benchmarking tool for Canadian businesses, drawing on Statistics Canada's National Accounts Longitudinal Microdata File. It served more than 10,000 businesses, was made mandatory for 3,000 firms by the Government of New Brunswick in its first year, and was maintained until 2024.
 
 -   Developed data series for the Canadian System of National Accounts to support policy development.
 
@@ -90,7 +90,7 @@ format-links: false
 
 ## Education
 
--   **PhD candidate in Economics and Finance**, Brunel University London, London, UK (Oct 2023 – Present)
+-   **PhD in Economics and Finance**, Brunel University London, London, UK (Oct 2023 – Present); thesis submitted
 
 -   **Canadian Securities Course**, Canadian Securities Institute, Ottawa, Canada (Oct 2004)
 
@@ -109,6 +109,10 @@ format-links: false
 ## Publications
 
 {{< publications level=3 abstracts=false >}}
+
+## Professional Service
+
+-   Peer reviewer, *Empirical Economics*
 
 ## Awards
 

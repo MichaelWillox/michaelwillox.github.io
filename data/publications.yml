@@ -36,7 +36,7 @@ publications:
     title: "The Post-2001 Productivity Growth Divergence between Canada and the United States"
     venue: "International Productivity Monitor"
     volume: 45
-    pages: "27-60"   # CV said 27-60, Research page said 28-60; please confirm
+    pages: "28-60"   # Michael confirmed 28-60 (2026-11-22); his BoC resume says 27-60
     url: "http://csls.ca/ipm/45/IPM_45_Gu.pdf"
     abstract: >-
       The high degree of integration between the Canadian and the US economies
@@ -125,7 +125,7 @@ publications:
     title: "The Industry Origins of Canada's Weaker Labour Productivity Performance and the Role of Structural Adjustment in the Post-2000 Period"
     venue: "International Productivity Monitor"
     volume: 31
-    pages: "19-37"   # CV said 19-37, Research page said 19-36; please confirm
+    pages: "19-36"   # from Michael's 2026 BoC resume
     url: "https://www.csls.ca/ipm/31/baldwin.pdf"
     abstract: >-
       This article examines how much of the slowdown in labour productivity
@@ -142,7 +142,7 @@ publications:
       gas) accounted for all of the slowdown in business sector labour
       productivity growth in the 2000s.
 
-# ===== Statistics Canada reports and research papers =======================
+# ===== Statistics Canada working papers and reports (not peer reviewed) ====
 
   - id: drabo-kuate-willox-2026-methods
     type: report
@@ -150,7 +150,7 @@ publications:
     year: 2026
     title: "Applied Quantitative Impact Analysis: A Review of Contemporary Methods for Evaluating Programs Serving Businesses"
     venue: "Analytical Studies: Methods and References"
-    number: "Catalogue no. 11-633-X"   # issue number (likely No. 3, from the URL) not confirmed
+    number: "No. 063, Catalogue no. 11-633-X"   # number from Michael's 2026 BoC resume
     publisher: "Statistics Canada"
     url: "https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm"
 
@@ -205,7 +205,7 @@ publications:
     year: 2019
     title: "Environmentally Adjusted Multifactor Productivity Growth for the Canadian Manufacturing Sector"
     venue: "Analytical Studies Branch Research Paper Series"
-    number: "Catalogue no. 11F0019M, No. 13"   # issue number inferred from the URL; please confirm
+    number: "No. 425, Catalogue no. 11F0019M"   # number from Michael's 2026 BoC resume
     publisher: "Statistics Canada"
     url: "https://www150.statcan.gc.ca/n1/pub/11f0019m/11f0019m2019013-eng.htm"
     abstract: >-
@@ -224,30 +224,45 @@ publications:
       reflecting declines in the undesirable output emissions intensity, in the
       manufacturing sector from 2004 to 2012.
 
-# ===== Working papers and work in progress ==================================
-# Add papers under review or in progress here. The example below is hidden
-# (draft: true) until you replace it with a real paper and delete that line.
+# ===== Work in progress ====================================================
+# Papers being written or under review. Year "in progress" sorts them first.
 
-  - id: example-working-paper
+  - id: gu-willox-long-term-productivity
     type: working
-    draft: true
-    authors: ["Willox, Michael"]
+    authors: ["Gu, Wulong", "Willox, Michael"]
     year: "in progress"
-    title: "Title of a working paper"
-    venue: "Working paper"
-    note: "Under review at ..."
-    url: ""
+    title: "Canada's Long-Term Productivity Growth in Perspective"
+    venue: "Working paper, Statistics Canada"
+    note: "Expected January 2027."
 
-# ===== PhD research ========================================================
-# The Brunel programme and dates are from the About and CV pages. The thesis
-# title below is a GUESS based on the stated research focus, so it is hidden
-# (draft: true). Replace the title, then delete the draft line.
+  - id: abbes-etal-scaling-up
+    type: working
+    authors: ["Abbes, C.", "Johnston, N.", "Lafrance-Cooke, Amélie", "Santilli, D.", "Willox, Michael"]
+    year: "in progress"
+    title: "Scaling Up Medium-Sized Firms in Canada: The Role of Patents"
+    venue: "Working paper, Statistics Canada"
+    note: "Expected January 2027."
 
-  - id: phd-thesis
+# ===== PhD research (Brunel University London) =============================
+# Thesis papers. Source: Michael's 2026 BoC resume.
+
+  - id: phd-eamfp
     type: phd
-    draft: true
     authors: ["Willox, Michael"]
     year: "in progress"
-    title: "Essays on Economic and Environmental Productivity and Efficiency Measurement"   # GUESS
-    venue: "PhD thesis, Department of Economics and Finance, Brunel University London"
-    note: "Expected completion: ..."
+    title: "Environmentally Adjusted Manufacturing Factor Productivity in Canadian Industries"
+    venue: "Doctoral thesis paper, Brunel University London"
+
+  - id: phd-robots
+    type: phd
+    authors: ["Willox, Michael"]
+    year: "in progress"
+    title: "Industrial Robot Adoption and Emissions Intensity in Canadian Manufacturing"
+    venue: "Doctoral thesis paper, Brunel University London"
+
+  - id: phd-cleantech
+    type: phd
+    authors: ["Willox, Michael"]
+    year: "in progress"
+    title: "Clean Technology Investment and Firm Financial Performance: Evidence from Canadian Administrative Data"
+    venue: "Doctoral thesis paper, Brunel University London"

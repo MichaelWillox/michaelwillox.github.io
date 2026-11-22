@@ -59,7 +59,9 @@ The work described on this page was carried out as part of my role at Statistics
 
 **Problem.** Only 6% of Canadian small and medium-sized businesses used formal, comprehensive metrics to compare their productivity with peers ([BDC, 2016](https://bdc.ca/en/about/analysis-research/productivity-2016)). Most owners had no easy way to know where they stood.
 
-**What I built.** The first online small business productivity benchmarking tool in Canada. A business owner enters a few figures and sees how their labour productivity compares with firms in the same industry, drawing on confidential Statistics Canada data released in aggregate form. I built the tool and maintained it until 2024. 
+**What I built.** The first online small business productivity benchmarking tool in Canada. A business owner enters a few figures and sees how their labour productivity compares with firms in the same industry, drawing on Statistics Canada's National Accounts Longitudinal Microdata File, released in aggregate form. I built the tool and maintained it until 2024.
+
+**Reach.** The tool served more than 10,000 businesses, and in its first year the Government of New Brunswick made it mandatory for 3,000 firms.
 **Recognition.** Statistics Canada Award of Excellence for Excellence in Project Delivery (2017).
 
 ### Other applied work
@@ -67,7 +69,13 @@ The work described on this page was carried out as part of my role at Statistics
 - **COVID-19 PPE supply and demand.** Modelled demand for and supply of personal protective equipment by sector and region during the pandemic. Statistics Canada Outstanding Contribution Award (2020).
 - **Business openings and closures.** Co-developed monthly experimental estimates of business openings and closures for Canada, the provinces and territories, and major cities ([Economic Insights, 2020](https://www150.statcan.gc.ca/n1/pub/11-626-x/11-626-x2020014-eng.htm)).
 - **Carbon taxes and efficiency.** Estimated the effect of British Columbia's carbon tax on the economic and environmental efficiency of manufacturing plants ([Energy Economics, 2022](https://doi.org/10.1016/j.eneco.2022.106359)).
-- **Canada-U.S. productivity.** Industry decompositions of the post-2001 productivity divergence between Canada and the United States ([International Productivity Monitor, 2023](http://csls.ca/ipm/45/IPM_45_Gu.pdf)).
+- **Canada-U.S. productivity.** Industry decompositions of the post-2001 productivity divergence between Canada and the United States. Gu, W., & Willox, M. (2023), [The Post-2001 Productivity Growth Divergence between Canada and the United States](http://csls.ca/ipm/45/IPM_45_Gu.pdf), *International Productivity Monitor*, 45 (peer reviewed).
+
+## Current research
+
+- **Canada's long-term productivity growth.** A growth-accounting study of Canadian productivity from 1961 to 2023, pointing to weak ICT capital investment and declining multifactor productivity as key constraints on long-run growth (with Wulong Gu; Statistics Canada working paper, expected January 2027).
+- **Scaling up medium-sized firms.** Links Statistics Canada's patent and financial microdata to test whether patenting raises a medium-sized firm's chance of growing into a large firm (with Abbes, Johnston, Lafrance-Cooke and Santilli; Statistics Canada working paper, expected January 2027).
+- **Doctoral research at Brunel University London.** Three thesis papers on environmentally adjusted productivity in Canadian manufacturing industries, industrial robot adoption and emissions intensity, and clean technology investment and firm financial performance.
 
 ## Methods and tools
 

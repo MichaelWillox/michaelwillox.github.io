@@ -3,7 +3,7 @@ title: "Transforming File Formats for HateRs"
 author: "Michael Willox"
 date: 2025-02-01
 type: post
-categories: [R, Data Management]
+categories: [R, Data]
 description: "How to read and save SAS, Stata, SPSS, and other file formats using R for people who hate R."
 image: "./RStudio_Screenshot.png" # Thumbnail for listings and social sharin
 ---

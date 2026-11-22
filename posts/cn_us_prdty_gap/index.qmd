@@ -2,7 +2,7 @@
 title: "The Canada-U.S. Productivity Growth Gap"
 author: "Michael Willox"
 date: 2025-04-07
-categories: [R, Productivity, Data]
+categories: [Productivity, Data]
 description: "A comparison of Canadian and U.S. business sector labour productivity growth from 1961 to 2024."
 type: post
 image: "cn_us_lp_gap_61-24.svg" # Thumbnail for listings and social sharing
@@ -20,4 +20,3 @@ The graph is related to a paper I wrote with my colleague, Wulong Gu, titled [*T
 
 You can access the R code to recreate the graph [here](https://github.com/MichaelWillox/michaelwillox.github.io/tree/main/posts/cn_us_prdty_gap). 
 
-*Note: Posts represent my personal views and opinions and do not reflect those of my employer or any affiliated organizations. This article contains no confidential information.*

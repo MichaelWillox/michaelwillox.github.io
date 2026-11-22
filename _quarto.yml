@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Michael Willox"
+  site-url: "https://michaelwillox.github.io"  # needed for the blog RSS feed
   navbar:
     right:
       - text: About
@@ -28,13 +29,3 @@ format:
     toc-depth: 2  # Adjust depth of the table of contents
     number-sections: false
 
-collections:
-  posts:
-    directory: posts        # The parent directory where the blog posts are stored
-    categories: true        # Enable categories in posts
-    listing:
-      contents: pages/blog.qmd  # Use pages/blog.qmd as the listing page
-      sort: date                # Sort posts by date
-      limit: 10                 # Show up to 10 posts
-      type: default             # Use the default listing format
-      fields: [title, date, description, image]  # Show title, date, and description

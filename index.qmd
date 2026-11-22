@@ -59,7 +59,7 @@ Uses plant-level data on British Columbia manufacturers to show that a 1% higher
 
 [Drabo, Kuate & Willox (2026), Statistics Canada, *Analytical Studies: Methods and References*]{.venue}
 
-Reviews modern impact evaluation methods, with case studies from Statistics Canada's work for BDC and EDC. BDC clients' labour productivity was 22% higher than matched non-clients after one year, and 42% higher after three.
+Reviews modern methods for evaluating programs that support businesses, drawing on Statistics Canada's impact analyses for BDC and EDC, which I have contributed to since 2016.
 
 [Read the study →](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm)
 :::

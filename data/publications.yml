@@ -233,11 +233,10 @@ publications:
 
   - id: gu-willox-long-term-productivity
     type: working
-    authors: ["Gu, Wulong", "Willox, Michael"]
+    authors: ["Willox, Michael"]
     year: "in progress"
     title: "Canada's Long-Term Productivity Growth in Perspective"
     venue: "Working paper, Statistics Canada"
-    note: "Expected January 2027."
 
   - id: abbes-etal-scaling-up
     type: working
@@ -245,7 +244,6 @@ publications:
     year: "in progress"
     title: "Scaling Up Medium-Sized Firms in Canada: The Role of Patents"
     venue: "Working paper, Statistics Canada"
-    note: "Expected January 2027."
 
 # ===== PhD research (Brunel University London) =============================
 # Thesis papers. Source: Michael's 2026 BoC resume.

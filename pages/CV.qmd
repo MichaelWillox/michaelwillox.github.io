@@ -90,7 +90,7 @@ format-links: false
 
 ## Education
 
--   **PhD in Economics and Finance**, Brunel University London, London, UK (Oct 2023 – Present); thesis submitted
+-   **PhD in Economics and Finance**, Brunel University London, London, UK (Oct 2023 – Oct 2026); thesis successfully defended October 7, 2026, graduation expected July 2027
 
 -   **Canadian Securities Course**, Canadian Securities Institute, Ottawa, Canada (Oct 2004)
 

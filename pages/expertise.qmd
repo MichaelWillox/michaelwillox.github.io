@@ -95,4 +95,7 @@ The work described on this page was carried out as part of my role at Statistics
 
 I welcome collaboration with academic researchers and external organizations on Statistics Canada research projects in impact evaluation, productivity, efficiency and environmental performance. I am also happy to share advice on questions within my areas of expertise, such as designing an evaluation, choosing a comparison group, or measuring productivity at the firm or industry level.
 
-[Get in touch on LinkedIn](https://www.linkedin.com/in/michael-willox){.btn .btn-primary} <!-- GUESS: LinkedIn as the contact channel. Confirm, or swap for another address. -->
+**Contact**\
+Statistics Canada: [michael.willox@statcan.gc.ca](mailto:michael.willox@statcan.gc.ca)\
+Brunel University London: [michael.willox@brunel.ac.uk](mailto:michael.willox@brunel.ac.uk)\
+[LinkedIn](https://www.linkedin.com/in/michael-willox)

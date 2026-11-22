@@ -8,6 +8,8 @@ website:
     right:
       - text: About
         href: pages/about.qmd
+      - text: Expertise
+        href: pages/expertise.qmd
       - text: Research
         href: pages/research.qmd
       - text: Blog

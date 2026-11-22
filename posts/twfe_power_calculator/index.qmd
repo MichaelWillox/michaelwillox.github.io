@@ -1,5 +1,5 @@
 ---
-title: "How Does Linking Data Reduce the Significance of Estimated Treatment Effects? A Power Calculator for Linked Panel Data"
+title: "How Does Linking Data Reduce the Power to Detect Treatment Effects? A Power Calculator for Linked Panel Data"
 date: 2026-11-22
 categories: [Impact evaluation, Research tools]
 description: "A free browser tool that shows how much statistical power is lost when datasets are linked, and whether the linked panel will still be large enough to detect the effect you care about."
@@ -31,6 +31,8 @@ Suppose 10% of these firms adopt, there are three years of data before adoption 
 That does not mean the study is not worth doing. The same panel is well powered for a 5% effect, which needs 2,734 firms, and a 10% effect needs only 703. However, a 1% effect would need 67,749 firms, more than four times the size of the original survey. Halving the effect to be detected roughly quadruples the sample required.
 
 ![Required number of firms by minimum detectable effect, calculator default settings](required_firms.svg){fig-alt="Line chart on a log scale showing the number of firms needed falling from about 68,000 for a 1% effect to about 700 for a 10% effect, with a dashed line at 5,362 firms for the expected linked panel. The panel is large enough for effects of about 3.6% or more."}
+
+The numbers in this example are illustrative. The calculator does not use any real or randomly simulated data. It computes all sample sizes and curves directly from closed-form analytical formulas, evaluated at the parameter values the user enters.
 
 ## Why serial correlation matters
 

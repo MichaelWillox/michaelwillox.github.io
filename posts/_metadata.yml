@@ -1,0 +1,6 @@
+# Settings shared by every blog post. Individual posts can override any of these.
+author: "Michael Willox"
+toc: true
+toc-depth: 2
+title-block-categories: true
+include-after-body: ../_includes/post-footer.html

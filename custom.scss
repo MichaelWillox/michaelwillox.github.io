@@ -81,3 +81,63 @@ $footer-bg: #f1f4f7;
 .more-links {
   margin-top: 1.25rem;
 }
+
+// ---------- Blog ----------
+// Listing page (pages/blog.qmd)
+.quarto-listing-default .quarto-post {
+  border-bottom: 1px solid #e3e8ee;
+  padding: 1.25rem 0;
+  margin-bottom: 0;
+}
+.quarto-listing-default .quarto-post .thumbnail img,
+.quarto-listing-default .quarto-post .thumbnail .listing-item-img-placeholder {
+  border-radius: 6px;
+  border: 1px solid #e3e8ee;
+  object-fit: cover;
+  background: #ffffff;
+}
+.quarto-listing-default .quarto-post .listing-title {
+  font-family: $headings-font-family;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: $primary;
+  margin-bottom: 0.35rem;
+}
+.quarto-listing-default .quarto-post a:hover .listing-title { color: $link-color; }
+.quarto-listing-default .quarto-post .listing-description { color: $body-color; }
+.quarto-listing-default .quarto-post .metadata,
+.quarto-listing-default .quarto-post .listing-date,
+.quarto-listing-default .quarto-post .listing-reading-time {
+  font-size: 0.85rem;
+  color: $secondary;
+}
+
+// Category pills, on the listing and at the top of each post
+div.quarto-post .listing-categories .listing-category,
+.quarto-title .quarto-categories .quarto-category,
+#quarto-margin-sidebar .quarto-listing-category .category {
+  border: none;
+  background: #e8f1ee;
+  color: $success;
+  border-radius: 999px;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.75rem;
+  text-transform: none;
+  opacity: 1;
+}
+#quarto-margin-sidebar .quarto-listing-category .category {
+  display: inline-block;
+  margin: 0 0.3rem 0.4rem 0;
+  font-size: 0.85rem;
+}
+#quarto-margin-sidebar .quarto-listing-category .category.active { background: $success; color: #ffffff; }
+.quarto-listing-category-title { font-family: $headings-font-family; color: $primary; }
+
+// Individual posts: comfortable reading width and footer
+.quarto-title-block .quarto-title .subtitle { color: $secondary; }
+.post-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e3e8ee;
+}
+.post-footer .disclaimer { margin-top: 0.5rem; }

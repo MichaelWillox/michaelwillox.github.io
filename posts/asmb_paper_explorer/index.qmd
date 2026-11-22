@@ -1,6 +1,7 @@
 ---
 title: "Searching Three Decades of Statistics Canada's Analytical Research"
-date: 2026-11-22
+date: 2025-09-28
+date-modified: 2026-11-22
 categories: [Research tools, R]
 description: "A free browser app for searching and filtering 771 papers released by Statistics Canada's Analytical Studies and Modelling Branch between 1994 and 2026."
 image: "explorer_screenshot.png"
@@ -14,7 +15,7 @@ It is not always easy to search. Finding every paper by a particular author, or 
 
 ## What it does
 
-The explorer covers 771 papers, from November 1994 to June 2026. Each one can be filtered by title, author, keyword and release date, and the filters narrow each other. For example, selecting an author limits the keyword list to topics that author has written on, and selecting a keyword then shows only the papers that match both. Papers with several authors or keywords appear once, but can be found under any of them.
+The explorer covers 771 papers, from November 1994 to June 2026 in its current version. Each one can be filtered by title, author, keyword and release date, and the filters narrow each other. For example, selecting an author limits the keyword list to topics that author has written on, and selecting a keyword then shows only the papers that match both. Papers with several authors or keywords appear once, but can be found under any of them.
 
 The table shows a short description of each paper, a link to the release on the Statistics Canada website and a formatted citation. Rows can be selected and downloaded as a spreadsheet with the full, untruncated details. If nothing is selected, everything currently shown is downloaded.
 

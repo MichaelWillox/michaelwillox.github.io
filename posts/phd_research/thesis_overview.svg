@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Source Sans 3, Segoe UI, sans-serif">
+  <rect width="760" height="420" fill="#ffffff"/>
+  <text x="40" y="52" font-family="Source Serif 4, Georgia, serif" font-size="26" font-weight="600" fill="#1f3a5f">Productivity, technology and the environment</text>
+  <text x="40" y="82" font-size="16" fill="#5b6b7d">Three studies using linked Canadian business microdata</text>
+  <g font-size="15">
+    <rect x="40" y="115" width="210" height="260" rx="8" fill="#f4f7fa" stroke="#e3e8ee"/>
+    <rect x="40" y="115" width="210" height="6" fill="#2a7f62"/>
+    <text x="60" y="155" font-weight="600" fill="#1f3a5f" font-size="17">1. Measurement</text>
+    <text x="60" y="185" fill="#22303e">Environmentally adjusted</text>
+    <text x="60" y="205" fill="#22303e">productivity and</text>
+    <text x="60" y="225" fill="#22303e">abatement costs</text>
+    <text x="60" y="275" fill="#5b6b7d">Random coefficients</text>
+    <text x="60" y="295" fill="#5b6b7d">production model</text>
+
+    <rect x="275" y="115" width="210" height="260" rx="8" fill="#f4f7fa" stroke="#e3e8ee"/>
+    <rect x="275" y="115" width="210" height="6" fill="#2a7f62"/>
+    <text x="295" y="155" font-weight="600" fill="#1f3a5f" font-size="17">2. Mechanism</text>
+    <text x="295" y="185" fill="#22303e">Industrial robots,</text>
+    <text x="295" y="205" fill="#22303e">output and greenhouse</text>
+    <text x="295" y="225" fill="#22303e">gas emissions</text>
+    <text x="295" y="275" fill="#5b6b7d">Shift-share</text>
+    <text x="295" y="295" fill="#5b6b7d">instrumental variables</text>
+
+    <rect x="510" y="115" width="210" height="260" rx="8" fill="#f4f7fa" stroke="#e3e8ee"/>
+    <rect x="510" y="115" width="210" height="6" fill="#2a7f62"/>
+    <text x="530" y="155" font-weight="600" fill="#1f3a5f" font-size="17">3. Evaluation</text>
+    <text x="530" y="185" fill="#22303e">Clean technology</text>
+    <text x="530" y="205" fill="#22303e">investment and firm</text>
+    <text x="530" y="225" fill="#22303e">financial performance</text>
+    <text x="530" y="275" fill="#5b6b7d">Staggered</text>
+    <text x="530" y="295" fill="#5b6b7d">difference-in-differences</text>
+  </g>
+</svg>

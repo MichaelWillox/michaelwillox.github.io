@@ -1,14 +1,20 @@
 ---
-title: "How Many Firms Do You Need? A Power Calculator for Linked Panel Data"
+title: "How Does Linking Data Reduce the Significance of Estimated Treatment Effects? A Power Calculator for Linked Panel Data"
 date: 2026-11-22
 categories: [Impact evaluation, Research tools]
-description: "A free browser tool that tells you whether a linked panel of firms will be large enough to detect the effect you care about, before you spend months building it."
+description: "A free browser tool that shows how much statistical power is lost when datasets are linked, and whether the linked panel will still be large enough to detect the effect you care about."
 image: "required_firms.svg"
 ---
 
-Many studies of business programs and technology adoption are built on linked microdata. A survey of firms is matched to tax records, then to a second survey, then to the same files in later years, until there is a panel that follows each firm before and after some event. Each link loses firms. So does each extra year, as firms close, merge or stop responding.
+Many empirical studies are built by linking datasets. A survey is matched to administrative records, then to a second survey, then to the same files in later years, until there is a panel that follows each unit before and after some event. Each link loses observations. So does each extra year, as units drop out of the data. The point estimate of a treatment effect may be unchanged by all of this, but its standard error grows, and an effect that would be statistically significant in the full data can become impossible to distinguish from zero in the linked one.
 
-The question that should come first is whether the panel that survives all of this will be large enough to detect the effect the study is looking for. In practice it often comes last, after the data access request has been approved and the linkage is done. I built the [TWFE Panel Power and Data Linkage Feasibility Calculator](https://michaelwillox.github.io/twfe-power-calculator/) so that it can be answered in a few minutes at the start.
+The question that should come first is whether the panel that survives the linkage will be large enough to detect the effect the study is looking for. In practice it often comes last, after the data access request has been approved and the linkage is done. I built the [TWFE Panel Power and Data Linkage Feasibility Calculator](https://michaelwillox.github.io/twfe-power-calculator/) so that it can be answered in a few minutes at the start.
+
+The calculator is written in terms of firms, but nothing in it is specific to business data. The same arithmetic applies to patients linked across hospital and pharmacy records, students linked from school files to tax records, workers linked across employer and household surveys, or facilities linked to emissions registries. It applies in any field where a treatment effect is estimated from a panel and linking datasets reduces the usable sample.
+
+## Why I built it
+
+The tool grew out of my working paper, *Clean Technology Investment and Firm Financial Performance: Evidence from Canadian Administrative Data*, part of my PhD thesis. That paper uses corporate tax records covering nearly all Canadian businesses to estimate how investing in clean energy and energy conservation equipment affects firms' revenue, employment and profitability. A natural next step would be to ask whether the same investments reduce energy use or emissions. That requires linking the tax records to facility-level energy and emissions data, which cover only a small fraction of firms. Once the linkage is done and firms are required to appear in every year, the group of investing firms becomes too small to estimate the effect with any precision. This is why the calculator's examples are framed around firms adopting a technology, with capital, labour and energy as baseline controls.
 
 ## What the calculator does
 
@@ -18,7 +24,7 @@ The user sets the minimum detectable effect, which is the smallest effect the st
 
 ## An example
 
-The default settings describe a fairly typical case. An anchor survey has 15,000 firms. About 65% of them can be linked to the other files, and 55% of those remain in the data for all seven years. That leaves 5,362 firms, a net yield of 36%.
+The default settings describe a fairly typical business case. An anchor survey has 15,000 firms. About 65% of them can be linked to the other files, and 55% of those remain in the data for all seven years. That leaves 5,362 firms, a net yield of 36%.
 
 Suppose 10% of these firms adopt, there are three years of data before adoption and four after, and the goal is to detect a 2% effect on output with 80% power at the 5% level. The study needs 16,956 firms. The linked panel is short by 11,594, and the smallest effect it can reliably detect is about 3.6%.
 
@@ -36,7 +42,7 @@ The calculator models this with an AR(1) process and uses an exact closed-form v
 
 The calculator is a scoping tool. It is meant for the conversation that happens before a project starts: whether to request more years of data, whether a second survey is worth linking, or what size of effect a study can honestly promise to find. It is also useful for teaching, because the sliders show directly how each assumption moves the answer.
 
-It is not a substitute for a project-specific simulation. Staggered adoption with effects that differ across firms (Callaway and Sant'Anna 2021; Sun and Abraham 2021), unbalanced panels, treatments that switch off, and clustering above the firm level are not modelled, and each of these generally requires a larger sample than the benchmark. The numbers it reports are best read as a lower bound.
+It is not a substitute for a project-specific simulation. Staggered adoption with effects that differ across firms (Callaway and Sant'Anna 2021; Sun and Abraham 2021), unbalanced panels, treatments that switch off, and clustering above the firm level are not modelled, and each of these generally requires a larger sample than the benchmark. The numbers it reports are best read as a lower bound. This matters for my own work, since the clean technology paper uses a staggered design.
 
 The calculator runs entirely in the browser, and the code and documentation are on [GitHub](https://github.com/MichaelWillox/twfe-power-calculator). The chart in this post was produced from the calculator's default settings; the script to recreate it is [here](https://github.com/MichaelWillox/michaelwillox.github.io/tree/main/posts/twfe_power_calculator).
 

@@ -42,7 +42,7 @@ format-links: false
 
 -   Manages projects with multidisciplinary teams on a variety of projects such as building and maintaining a world-class economic and environmental database.
 
--   Built and maintains an online productivity benchmarking tool for Canadian businesses.
+-   Built an online productivity benchmarking tool for Canadian businesses and maintained it until 2024.
 
 -   Developed data series for the Canadian System of National Accounts to support policy development.
 

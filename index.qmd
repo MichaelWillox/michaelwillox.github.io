@@ -59,7 +59,7 @@ Uses plant-level data on British Columbia manufacturers to show that a 1% higher
 
 [Drabo, Kuate & Willox (2026), Statistics Canada, *Analytical Studies: Methods and References*]{.venue}
 
-Reviews modern methods for evaluating programs that support businesses, drawing on Statistics Canada's impact analyses for BDC and EDC, which I have contributed to since 2016.
+Reviews modern methods for evaluating programs that support businesses, drawing on Statistics Canada's impact analyses for BDC (my work since 2016) and EDC (since 2023).
 
 [Read the study →](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm)
 :::

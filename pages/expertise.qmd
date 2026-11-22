@@ -47,7 +47,9 @@ The work described on this page was carried out as part of my role at Statistics
 
 **Approach.** BDC client records are linked to Statistics Canada's Business Register and to tax-based firm data in the Canadian Employer-Employee Dynamics Database. Each client is matched with comparable non-clients on age, size, financial position, industry and region. Outcomes are then compared over time using difference-in-differences and event-study models, with survival analysis for firm exit.
 
-**Results.** In the published event study, labour productivity of BDC clients was about 22% higher than that of matched non-clients one year after receiving support, rising to 32% after two years and 42% after three. Before support, the two groups were statistically indistinguishable, which supports the comparison.
+**My role.** I carried out earlier versions of this evaluation for BDC. The latest analysis, reported in our 2026 paper, was performed by my colleague Manassé Drabo using the same framework.
+
+**Results.** In the latest published event study, labour productivity of BDC clients was about 22% higher than that of matched non-clients one year after receiving support, rising to 32% after two years and 42% after three. Before support, the two groups were statistically indistinguishable, which supports the comparison.
 
 **Published as.** Drabo, M., Kuate, L., & Willox, M. (2026). [Applied Quantitative Impact Analysis: A Review of Contemporary Methods for Evaluating Programs Serving Businesses](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm). *Analytical Studies: Methods and References*, Statistics Canada Catalogue no. 11-633-X. A shorter summary appears in [Quantitative impact analysis: A practical overview](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026005/article/00003-eng.htm) (*Economic and Social Reports*, 2026).
 
@@ -62,7 +64,7 @@ The work described on this page was carried out as part of my role at Statistics
 
 **Approach.** The same linked-data framework used for BDC: EDC client records are linked to firm-level business and trade data, clients are matched to comparable non-clients, and outcomes are tracked over time. <!-- GUESS: outcomes measured (exports, market entry, survival) are a guess. -->
 
-**Published as.** The evaluation framework is documented in Drabo, Kuate & Willox (2026), [Applied Quantitative Impact Analysis](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm), which covers Statistics Canada's impact work for both BDC and EDC. <!-- CLEARANCE: no EDC-specific results are public, so none are quoted. -->
+**Published as.** The evaluation framework is documented in Drabo, Kuate & Willox (2026), [Applied Quantitative Impact Analysis](https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2026003-eng.htm), which covers Statistics Canada's impact work for both BDC and EDC. <!-- No EDC results are quoted, by design (confirmed by Michael, 2026-11-22). -->
 
 ### A productivity benchmarking tool for small businesses
 

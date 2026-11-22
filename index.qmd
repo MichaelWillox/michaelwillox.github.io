@@ -1,13 +1,13 @@
 ---
 pagetitle: "Michael Willox | Economist"
 description: "Economist specialising in productivity, environmental economics and impact evaluation."
-image: "/images/LinkedInSmall.jpg"
+image: "/images/headshot.jpg"
 toc: false
 ---
 
 ::: {.grid .hero}
 ::: {.g-col-12 .g-col-md-3 .text-center}
-![](images/LinkedInSmall.jpg){.headshot fig-alt="Photo of Michael Willox"}
+![](images/headshot.jpg){.headshot fig-alt="Photo of Michael Willox"}
 :::
 
 ::: {.g-col-12 .g-col-md-9}

@@ -1,9 +1,9 @@
 ---
 title: "About"
-image: "/images/LinkedInSmall.jpg"
+image: "/images/headshot.jpg"
 ---
 
-![](../images/LinkedInSmall.jpg){width="200px" fig-align="center"}
+![](../images/headshot.jpg){width="200px" fig-align="center"}
 
 
 ::: text-center

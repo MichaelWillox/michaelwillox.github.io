@@ -15,7 +15,7 @@ toc: false
 
 [I measure what drives productivity and environmental performance, and test whether public policy works.]{.positioning}
 
-[Senior Research Economist, Statistics Canada · PhD candidate in Economics, Brunel University London]{.roles}
+[Senior Research Economist, Statistics Canada · PhD in Economics and Finance, Brunel University London (2026)]{.roles}
 
 I have more than twenty years of experience across five federal departments and agencies, including Finance Canada and Statistics Canada. I estimate productivity and efficiency from firm- and industry-level data, evaluate the effects of programs and policies, and build data products that businesses and governments use to make decisions.
 
